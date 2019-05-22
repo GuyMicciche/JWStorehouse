@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navLibraryScrollView"
+    android:paddingLeft="@dimen/bible_nav_bible_book_scroll_view_padding"
+    android:paddingRight="@dimen/bible_nav_bible_book_scroll_view_padding"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/primaryLibraryContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#ff666666"
+                android:id="@+id/primaryLibraryTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/bible_nav_bible_book_header_side_padding"
+                android:layout_marginTop="@dimen/bible_nav_bible_book_header_top_padding"
+                android:layout_marginRight="@dimen/bible_nav_bible_book_header_side_padding"
+                android:layout_marginBottom="@dimen/bible_nav_bible_book_header_bottom_padding"
+                style="?android:attr/listSeparatorTextViewStyle" />
+            <JWChinese.LibraryGridView
+                android:id="@+id/primaryHebrewLibraryGridView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:horizontal_spacing="@dimen/bible_nav_bible_book_grid_horizontal_spacing"
+                app:vertical_spacing="@dimen/bible_nav_bible_book_grid_vertical_spacing"
+                app:column_width="@dimen/bible_nav_bible_book_grid_width"
+                app:column_count="auto_fit"
+                android:layout_marginBottom="@dimen/bible_nav_bible_book_header_bottom_padding" />
+            <JWChinese.LibraryGridView
+                android:id="@+id/primaryGreekLibraryGridView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:horizontal_spacing="@dimen/bible_nav_bible_book_grid_horizontal_spacing"
+                app:vertical_spacing="@dimen/bible_nav_bible_book_grid_vertical_spacing"
+                app:column_width="@dimen/bible_nav_bible_book_grid_width"
+                app:column_count="auto_fit" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/secondaryLibraryContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#ff666666"
+                android:id="@+id/secondaryLibraryTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/bible_nav_bible_book_header_side_padding"
+                android:layout_marginTop="@dimen/bible_nav_bible_book_header_top_padding"
+                android:layout_marginRight="@dimen/bible_nav_bible_book_header_side_padding"
+                android:layout_marginBottom="@dimen/bible_nav_bible_book_header_bottom_padding"
+                style="?android:attr/listSeparatorTextViewStyle" />
+            <JWChinese.LibraryGridView
+                android:id="@+id/secondaryHebrewLibraryGridView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:horizontal_spacing="@dimen/bible_nav_bible_book_grid_horizontal_spacing"
+                app:vertical_spacing="@dimen/bible_nav_bible_book_grid_vertical_spacing"
+                app:column_width="@dimen/bible_nav_bible_book_grid_width"
+                app:column_count="auto_fit"
+                android:layout_marginBottom="@dimen/bible_nav_bible_book_header_bottom_padding" />
+            <JWChinese.LibraryGridView
+                android:id="@+id/secondaryGreekLibraryGridView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:horizontal_spacing="@dimen/bible_nav_bible_book_grid_horizontal_spacing"
+                app:vertical_spacing="@dimen/bible_nav_bible_book_grid_vertical_spacing"
+                app:column_width="@dimen/bible_nav_bible_book_grid_width"
+                app:column_count="auto_fit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

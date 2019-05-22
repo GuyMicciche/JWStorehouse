@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/bible_nav_bible_book_scroll_view_padding"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="8dip"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sync allows you to upload/download your character learning, saved articles, notes, and highlights to use in any JW Chinese application. To make this simple and easy, enter a user name and password. If no user exists, a new user will be created for you. If you want to sync your data on another device, remember your user name and password." />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_marginTop="16dip" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/parseUserName"
+            android:hint="Name" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="User Password:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            style="?android:attr/listSeparatorTextViewStyle" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/parsePassword"
+            android:hint="Password" />
+    </LinearLayout>
+</LinearLayout>

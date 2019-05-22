@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Pinyin>
+
+  <!--BIBLE-->
+  <Bible>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Genesis.xml</link>
+      <chinese abbr="创" short="">创世记</chinese>
+      <pinyin abbr="Chuàng" short="">Chuàngshìjì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Exodus.xml</link>
+      <chinese abbr="出" short="">出埃及记</chinese>
+    <pinyin abbr="Chū" short="">Chū’āijíjì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Leviticus.xml</link>
+      <chinese abbr="利" short="">利未记</chinese>
+      <pinyin abbr="Lì" short="">Lìwèijì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Numbers.xml</link>
+      <chinese abbr="民" short="">民数记</chinese>
+      <pinyin abbr="Mín" short="">Mínshùjì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Deuteronomy.xml</link>
+      <chinese abbr="申" short="">申命记</chinese>
+      <pinyin abbr="Shēn" short="">Shēnmìngjì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Joshua.xml</link>
+      <chinese abbr="书" short="">约书亚记</chinese>
+      <pinyin abbr="Shū" short="">Yuēshūyàjì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Judges.xml</link>
+      <chinese abbr="士" short="">士师记</chinese>
+      <pinyin abbr="Shì" short="">Shìshījì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Ruth.xml</link>
+      <chinese abbr="得" short="">路得记</chinese>
+      <pinyin abbr="Dé" short="">Lùdéjì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/1 Samuel.xml</link>
+      <chinese abbr="撒上" short="">撒母耳记上</chinese>
+      <pinyin abbr="Sāshàng" short="">Sāmǔ’ěrjì Shàng</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/2 Samuel.xml</link>
+      <chinese abbr="撒下" short="">撒母耳记下</chinese>
+      <pinyin abbr="Sāxià" short="">Sāmǔ’ěrjì Xià</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/1 Kings.xml</link>
+      <chinese abbr="王上" short="">列王纪上</chinese>
+      <pinyin abbr="Wángshàng" short="">Lièwángjì Shàng</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/2 Kings.xml</link>
+      <chinese abbr="王下" short="">列王纪下</chinese>
+      <pinyin abbr="Wángxià" short="">Lièwángjì Xià</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/1 Chronicles.xml</link>
+      <chinese abbr="代上" short="">历代志上</chinese>
+      <pinyin abbr="Dàishàng" short="">Lìdàizhì Shàng</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/2 Chronicles.xml</link>
+      <chinese abbr="代下" short="">历代志下</chinese>
+      <pinyin abbr="Dàixià" short="">Lìdàizhì Xià</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Ezra.xml</link>
+      <chinese abbr="拉" short="">以斯拉记</chinese>
+      <pinyin abbr="Sī" short="">Yǐsīlājì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Nehemiah.xml</link>
+      <chinese abbr="尼" short="">尼希米记</chinese>
+      <pinyin abbr="Ní" short="">Níxīmǐjì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Esther.xml</link>
+      <chinese abbr="斯" short="">以斯帖记</chinese>
+      <pinyin abbr="Sī" short="">Yǐsītiējì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Job.xml</link>
+      <chinese abbr="伯" short="">约伯记</chinese>
+      <pinyin abbr="Bó" short="">Yuēbójì</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Psalms.xml</link>
+      <chinese abbr="诗" short="">诗篇</chinese>
+      <pinyin abbr="Shī" short="">Shīpiān</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Proverbs.xml</link>
+      <chinese abbr="箴" short="">箴言</chinese>
+      <pinyin abbr="Zhēn" short="">Zhēnyán</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Ecclesiastes.xml</link>
+      <chinese abbr="传" short="">传道书</chinese>
+      <pinyin abbr="Chuán" short="">Chuándàoshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Song of Solomon.xml</link>
+      <chinese abbr="歌" short="">雅歌</chinese>
+      <pinyin abbr="Gē" short="">Yǎgē</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Isaiah.xml</link>
+      <chinese abbr="赛" short="">以赛亚书</chinese>
+      <pinyin abbr="Sài" short="">Yǐsàiyàshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Jeremiah.xml</link>
+      <chinese abbr="耶" short="">耶利米书</chinese>
+        <pinyin abbr="Yē" short="">Yēlìmǐshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Lamentations.xml</link>
+      <chinese abbr="哀" short="">耶利米哀歌</chinese>
+      <pinyin abbr="Āi" short="">Yēlìmǐ Āigē</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Ezekiel.xml</link>
+      <chinese abbr="结" short="">以西结书</chinese>
+      <pinyin abbr="Xī" short="">Yǐxījiéshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Daniel.xml</link>
+      <chinese abbr="但" short="">但以理书</chinese>
+      <pinyin abbr="Dà" short="">Dànyǐlǐshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Hosea.xml</link>
+      <chinese abbr="何" short="">何西阿书</chinese>
+      <pinyin abbr="Hé" short="">Héxī’āshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Joel.xml</link>
+      <chinese abbr="珥" short="">约珥书</chinese>
+      <pinyin abbr="Ěr" short="">Yuē’ěrshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Amos.xml</link>
+      <chinese abbr="摩" short="">阿摩司书</chinese>
+      <pinyin abbr="Mó" short="">Āmósīshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Obadiah.xml</link>
+      <chinese abbr="俄" short="">俄巴底亚书</chinese>
+      <pinyin abbr="É" short="">Ébādǐyàshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Jonah.xml</link>
+      <chinese abbr="拿" short="">约拿书</chinese>
+      <pinyin abbr="Ná" short="">Yuēnáshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Micah.xml</link>
+      <chinese abbr="弥" short="">弥迦书</chinese>
+      <pinyin abbr="Mí" short="">Míjiāshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Nahum.xml</link>
+      <chinese abbr="鸿" short="">那鸿书</chinese>
+      <pinyin abbr="Hóng" short="">Nāhóngshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Habakkuk.xml</link>
+      <chinese abbr="哈" short="">哈巴谷书</chinese>
+      <pinyin abbr="Hā" short="">Hābāgǔshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Zephaniah.xml</link>
+      <chinese abbr="番" short="">西番雅书</chinese>
+      <pinyin abbr="Fān" short="">Xīfānyǎshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Haggai.xml</link>
+      <chinese abbr="该" short="">哈该书</chinese>
+      <pinyin abbr="Gāi" short="">Hāgāishū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Zechariah.xml</link>
+      <chinese abbr="亚" short="">撒迦利亚书</chinese>
+      <pinyin abbr="Yà" short="">Sājiālìyàshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Malachi.xml</link>
+      <chinese abbr="玛" short="">玛拉基书</chinese>
+      <pinyin abbr="Lā" short="">Mǎlājīshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Matthew.xml</link>
+      <chinese abbr="太" short="">马太福音</chinese>
+      <pinyin abbr="Tài" short="">Mǎtài Fúyīn</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Mark.xml</link>
+      <chinese abbr="可" short="">马可福音</chinese>
+      <pinyin abbr="Kě" short="">Mǎkě Fúyīn</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Luke.xml</link>
+      <chinese abbr="路" short="">路加福音</chinese>
+      <pinyin abbr="Lù" short="">Lùjiā Fúyīn</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/John.xml</link>
+      <chinese abbr="约" short="">约翰福音</chinese>
+      <pinyin abbr="Yuē" short="">Yuēhàn Fúyīn</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Acts.xml</link>
+      <chinese abbr="徒" short="">使徒行传</chinese>
+      <pinyin abbr="Tú" short="">Shǐtú Xíngzhuàn</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Romans.xml</link>
+      <chinese abbr="罗" short="">罗马书</chinese>
+      <pinyin abbr="Luó" short="">Luómǎshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/1 Corinthians.xml</link>
+      <chinese abbr="林前" short="">哥林多前书</chinese>
+      <pinyin abbr="Línqián" short="">Gēlínduō Qiánshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/2 Corinthians.xml</link>
+      <chinese abbr="林后" short="">哥林多后书</chinese>
+      <pinyin abbr="Línhòu" short="">Gēlínduō Hòushū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Galatians.xml</link>
+      <chinese abbr="加" short="">加拉太书</chinese>
+      <pinyin abbr="Jiā" short="">Jiālātàishū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Ephesians.xml</link>
+      <chinese abbr="弗" short="">以弗所书</chinese>
+      <pinyin abbr="Fú" short="">Yǐfúsuǒshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Philippians.xml</link>
+      <chinese abbr="腓" short="">腓立比书</chinese>
+      <pinyin abbr="Féi" short="">Féilìbǐshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Colossians.xml</link>
+      <chinese abbr="西" short="">歌罗西书</chinese>
+      <pinyin abbr="Xī" short="">Gēluóxīshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/1 Thessalonians.xml</link>
+      <chinese abbr="帖前" short="">帖撒罗尼迦前书</chinese>
+      <pinyin abbr="Tiēqián" short="">Tiēsāluóníjiā Qiánshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/2 Thessalonians.xml</link>
+      <chinese abbr="帖后" short="">帖撒罗尼迦后书</chinese>
+      <pinyin abbr="Tiēhòu" short="">Tiēsāluóníjiā Hòushū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/1 Timothy.xml</link>
+      <chinese abbr="提前" short="">提摩太前书</chinese>
+      <pinyin abbr="Tíqián" short="">Tímótài Qiánshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/2 Timothy.xml</link>
+      <chinese abbr="提后" short="">提摩太后书</chinese>
+      <pinyin abbr="Tíhòu" short="">Tímótài Hòushū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Titus.xml</link>
+      <chinese abbr="多" short="">提多书</chinese>
+      <pinyin abbr="Duō" short="">Tíduōshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Philemon.xml</link>
+      <chinese abbr="门" short="">腓利门书</chinese>
+      <pinyin abbr="Mén" short="">Féilìménshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Hebrews.xml</link>
+      <chinese abbr="来" short="">希伯来书</chinese>
+      <pinyin abbr="Lái" short="">Xībóláishū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/James.xml</link>
+      <chinese abbr="雅" short="">雅各书</chinese>
+      <pinyin abbr="Yǎ" short="">Yǎgèshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/1 Peter.xml</link>
+      <chinese abbr="彼前" short="">彼得前书</chinese>
+      <pinyin abbr="Bǐqián" short="">Bǐdé Qiánshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/2 Peter.xml</link>
+      <chinese abbr="彼后" short="">彼得后书</chinese>
+      <pinyin abbr="Bǐhòu" short="">Bǐdé Hòushū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/1 John.xml</link>
+      <chinese abbr="约一" short="">约翰一书</chinese>
+      <pinyin abbr="Yuēyì" short="">Yuēhàn Yìshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/2 John.xml</link>
+      <chinese abbr="约二" short="">约翰二书</chinese>
+      <pinyin abbr="Yuē’è" short="">Yuēhàn Èrshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/3 John.xml</link>
+      <chinese abbr="约三" short="">约翰三书</chinese>
+      <pinyin abbr="Yuēsān" short="">Yuēhàn Sānshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Jude.xml</link>
+      <chinese abbr="犹" short="">犹大书</chinese>
+      <pinyin abbr="Yóu" short="">Yóudàshū</pinyin>
+    </biblebook>
+    <biblebook>
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/bible/Revelation.xml</link>
+      <chinese abbr="启" short="">启示录</chinese>
+      <pinyin abbr="Qǐ" short="">Qǐshìlù</pinyin>
+    </biblebook>
+  </Bible>
+
+  <!--INSIGHT-->
+  <Insight>
+    <insight code="it" number="0">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/insight.xml</link>
+	    <chinese abbr="it" short="洞悉">《洞悉圣经》</chinese>
+	    <pinyin abbr="it" short="Dòngxī">Dòngxī Shèngjīng</pinyin>
+    </insight>
+  </Insight>
+
+  <!--DAILY TEXT-->
+  <DailyText>
+    <dailytext code="es" number="2015">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/dailytext.xml</link>
+      <chinese>天天考查圣经——2015</chinese>
+      <pinyin>Tiāntiān Kǎochá Shèngjīng——2015</pinyin>
+    </dailytext>
+  </DailyText>
+
+  <!--OTHER PUBLICATIONS-->
+  <Books>
+    <!--BOOKS-->
+    <pub code="bt" number="2">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/bearingwitness.xml</link>
+      <chinese>《为上帝的王国彻底作见证》</chinese>
+      <pinyin>Wéi Shàngdì De Wángguó Chèdǐ Zuò Jiànzhèng</pinyin>
+    </pub>
+    <pub code="my" number="3">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/biblestories.xml</link>
+      <chinese>《我的圣经故事书》</chinese>
+      <pinyin>Wǒ De Shèngjīng Gùshì Shū</pinyin>
+    </pub>
+    <pub code="bh" number="4">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/bibleteach.xml</link>
+      <chinese>《辨明圣经的真理》</chinese>
+      <pinyin>Biànmíng Shèngjīng De Zhēnlǐ</pinyin>
+    </pub>
+    <pub code="cl" number="5">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/closetojehovah.xml</link>
+      <chinese>《亲近耶和华》</chinese>
+      <pinyin>Qīnjìn Yēhéhuá</pinyin>
+    </pub>
+    <pub code="lv" number="6">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/godslove.xml</link>
+      <chinese>《常在上帝的爱里》</chinese>
+      <pinyin>Cháng Zài Shàngdì De Ài Li</pinyin>
+    </pub>
+    <pub code="ip-1" number="7">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/isaiah1.xml</link>
+      <chinese>《以赛亚的预言光照全人类》（上册）</chinese>
+      <pinyin>Yǐsàiyà De Yùyán Guāngzhào Quánrénlèi (Shàngcè)</pinyin>
+    </pub>
+    <pub code="ip-2" number="8">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/isaiah2.xml</link>
+      <chinese>《以赛亚的预言光照全人类》（下册）</chinese>
+      <pinyin>Yǐsàiyà De Yùyán Guāngzhào Quánrénlèi (Xiàcè)</pinyin>
+    </pub>
+    <pub code="jd" number="9">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/jehovahsday.xml</link>
+      <chinese>《紧记耶和华的日子，过敬虔的生活》</chinese>
+      <pinyin>Jǐnjì Yēhéhuá De Rìzi，Guò Jìngqián De Shēnghuó</pinyin>
+    </pub>
+    <pub code="jr" number="10">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/jeremiah.xml</link>
+      <chinese>《上帝通过耶利米给我们的话》</chinese>
+      <pinyin>Shàngdì Tōngguò Yēlìmǐ Gěi Wǒmen De Huà</pinyin>
+    </pub>
+    <pub code="be" number="11">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/ministryschool.xml</link>
+      <chinese>《神圣教育使你得益——传道训练班课本》</chinese>
+      <pinyin>Shénshèng Jiàoyù Shǐ Nǐ Déyì——Chuándào Xùnliànbān Kèběn</pinyin>
+    </pub>
+    <pub code="rs" number="12">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/reasoning.xml</link>
+      <chinese>《根据圣经而推理》</chinese>
+      <pinyin>Sēnjù Shèngjīng Ér Tuīlǐ</pinyin>
+    </pub>
+    <pub code="sn" number="13">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/singtojehovah.xml</link>
+      <chinese>《歌颂耶和华》</chinese>
+      <pinyin>Gēsòng Yēhéhuá</pinyin>
+    </pub>
+    <pub code="lr" number="14">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/teacher.xml</link>
+      <chinese>《向伟大的导师学习》</chinese>
+      <pinyin>Xiàng Wěidà De Dǎoshī Xuéxí</pinyin>
+    </pub>
+    <pub code="wt" number="15">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/worshipgod.xml</link>
+      <chinese>《崇拜独一的真神》</chinese>
+      <pinyin>Chóngbài Dúyī De Zhēnshén</pinyin>
+    </pub>
+    <pub code="yp1" number="16">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/youngpeople1.xml</link>
+      <chinese>《青年人所提出的问题——有实效的答案》，第1册</chinese>
+      <pinyin>Qīngniánrén Suǒ Tíchū De Wèntí—Yǒu Shíxiào De Dá'àn， Dì 1 Cè</pinyin>
+    </pub>
+    <pub code="yp2" number="17">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/youngpeople2.xml</link>
+      <chinese>《青年人所提出的问题——有实效的答案》，第2册</chinese>
+      <pinyin>Qīngniánrén Suǒ Tíchū De Wèntí—Yǒu Shíxiào De Dá'àn， Dì 2 Cè</pinyin>
+    </pub>
+    <pub code="cf" number="18">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/myfollower.xml</link>
+      <chinese>《来跟随我吧》</chinese>
+      <pinyin>Lái Gēnsuí Wǒ Ba</pinyin>
+    </pub>
+    <!--<pub code="kl" number="19">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/knowledge.xml</link>
+      <chinese>《带来永生的知识》</chinese>
+      <pinyin>Dàilái Yǒngshēng De Zhīshi</pinyin>
+    </pub>
+    <pub code="re" number="20">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/revelation.xml</link>
+      <chinese>《启示录伟大的高潮近了！》</chinese>
+      <pinyin>Qǐshìlù Wěidà De Gāocháo Jìn Le！</pinyin>
+    </pub>-->
+    <pub code="ia" number="21">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/imitate.xml</link>
+      <chinese>《信心的榜样》</chinese>
+      <pinyin>Xìnxīn De Bǎngyàng</pinyin>
+    </pub>
+
+    <!--BROCHURES-->
+    <pub code="jl" number="22">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/jehovahswill.xml</link>
+      <chinese>《谁在遵行耶和华的旨意》</chinese>
+      <pinyin>Shéi Zài Zūnxíng Yēhéhuá De Zhǐyì</pinyin>
+    </pub>
+    <pub code="fg" number="23">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/goodnews.xml</link>
+      <chinese>《来自上帝的好消息》</chinese>
+      <pinyin>Láizì Shàngdì De Hǎo Xiāoxī</pinyin>
+    </pub>
+    <pub code="rsg14" number="24">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/researchguide.xml</link>
+      <chinese>《耶和华见证人出版物检索手册》</chinese>
+      <pinyin>Yēhéhuá Jiànzhèngrén Chūbǎnwù Jiǎnsuǒ Shǒucè</pinyin>
+    </pub>
+    <pub code="igw" number="25" img="introgodsword">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/introgodsword.xml</link>
+      <english abbr="igw" short="An Introduction to God's Word">An Introduction to God's Word</english>
+      <chinese abbr="igw" short="圣经入门">《圣经入门》</chinese>
+      <pinyin abbr="igw" short="Shèngjīng Rùmén">Shèngjīng Rùmén</pinyin>
+    </pub>
+    <pub code="sgd" number="26" img="biblereference">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/biblereference.xml</link>
+      <english abbr="sgd" short="Bible Reference Guide">Bible Reference Guide</english>
+      <chinese abbr="sgd" short="圣经参考手册">《圣经参考手册》</chinese>
+      <pinyin abbr="sgd" short="Shèngjīng Cānkǎo Shǒucè">Shèngjīng Cānkǎo Shǒucè</pinyin>
+    </pub>
+    <pub code="bm" number="27" img="biblesmessage">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/biblesmessage.xml</link>
+      <english abbr="bm" short="Bible’s Message">The Bible—What Is Its Message?</english>
+      <chinese abbr="bm" short="检索手">《浅谈圣经——圣经的信息是什么？》</chinese>
+      <pinyin abbr="bm" short="Jiǎnsuǒ Shǒu">“Qiǎn Tán Shèngjīng——Shèngjīng De Xìnxī Shì Shénme?”</pinyin>
+    </pub>
+    <pub code="hf" number="28" img="happyfamily">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/happyfamily.xml</link>
+      <english abbr="hf" short="Happy Family">Your Family Can Be Happy</english>
+      <chinese abbr="hf" short="家庭幸福">《怎样促进家庭幸福》</chinese>
+      <pinyin abbr="hf" short="Jiātíng Xìngfú">Zěnyàng Cùjìn Jiātíng Xìngfú</pinyin>
+    </pub>
+    <!--<pub code="hl" number="29" img="happylife">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/happylife.xml</link>
+      <english abbr="hl" short="Happy Life">How Can You Have a Happy Life?</english>
+      <chinese abbr="hl" short=""></chinese>
+      <pinyin abbr="hl" short=""></pinyin>
+    </pub>-->
+    <pub code="ll" number="30" img="listenandlive">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/listenandlive.xml</link>
+      <english abbr="ll" short="Listen and Live">Listen to God and Live Forever</english>
+      <chinese abbr="ll" short="听从（详尽版）">《听从上帝得永生》</chinese>
+      <pinyin abbr="ll" short="Tīngcóng (Xiángjìn Bǎn)">Tīngcóng Shàngdì Dé Yǒngshēng</pinyin>
+    </pub>
+    <pub code="ld" number="31" img="listentogod">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/listentogod.xml</link>
+      <english abbr="ld" short="Listen to God">Listen to God</english>
+      <chinese abbr="ld" short="听从（简易版）">《要听从上帝》</chinese>
+      <pinyin abbr="ld" short="Tīngcóng (Jiǎnyì Bǎn)">Yào Tīngcóng Shàngdì</pinyin>
+    </pub>
+    <pub code="mb" number="32" img="mybiblelessons">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/mybiblelessons.xml</link>
+      <english abbr="mb" short="My Bible Lessons">My Bible Lessons</english>
+      <chinese abbr="mb" short="宝宝学圣经">《宝宝学圣经》</chinese>
+      <pinyin abbr="mb" short="Bǎobǎo Xué Shèngjīng">Bǎobǎo Xué Shèngjīng</pinyin>
+    </pub>
+    <pub code="lf" number="33" img="originoflife">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/originoflife.xml</link>
+      <english abbr="lf" short="Origin of Life">The Origin of Life—Five Questions Worth Asking</english>
+      <chinese abbr="lf" short="生命的起源">《生命的起源——值得思考的五个问题》</chinese>
+      <pinyin abbr="lf" short="Shēngmìng de Qǐyuán">Shēngmìng De Qǐyuán——Zhídé Sīkǎo De Wǔ Gè Wèntí”</pinyin>
+    </pub>
+    <pub code="yc" number="34" img="teachyourchildren">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/teachyourchildren.xml</link>
+      <english abbr="yc" short="Teach Your Children">Teach Your Children</english>
+      <chinese abbr="yc" short="圣经小故事">《圣经小故事》</chinese>
+      <pinyin abbr="yc" short="Shèngjīng Xiǎo Gùshì">Shèngjīng Xiǎo Gùshì</pinyin>
+    </pub>
+    <pub code="lc" number="35" img="waslifecreated">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/waslifecreated.xml</link>
+      <english abbr="lc" short="Was Life Created?">Was Life Created?</english>
+      <chinese abbr="lc" short="生命来自创造吗？">《生命来自创造吗？》</chinese>
+      <pinyin abbr="lc" short="Shēngmìng Láizì Chuàngzào Ma?">Shēngmìng Láizì Chuàngzào Ma?</pinyin>
+    </pub>
+
+    <!--TRACTS-->
+    <pub code="kt" number="36" img="knowthetruth">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/knowthetruth.xml</link>
+      <english abbr="kt" short="Know the Truth">Would You Like to Know the Truth?</english>
+      <chinese abbr="kt" short="真理传单">你想找到真理吗？</chinese>
+      <pinyin abbr="kt" short="Zhēnlǐ Chuándān">Nǐ Xiǎng Zhǎodào Zhēnlǐ Ma?</pinyin>
+    </pub>
+    <pub code="t-30" number="37" img="viewthebible">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/viewthebible.xml</link>
+      <english abbr="t-30" short="View the Bible">How Do You View the Bible?</english>
+      <chinese abbr="t-30" short="圣经看法">你对圣经有什么看法？</chinese>
+      <pinyin abbr="t-30" short="Shèngjīng Kànfǎ">Nǐ Duì Shèngjīng Yǒu Shénme Kànfǎ?</pinyin>
+    </pub>
+    <pub code="t-31" number="38" img="viewthefuture">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/viewthefuture.xml</link>
+      <english abbr="t-31" short="View the Future">How Do You View the Future?</english>
+      <chinese abbr="t-31" short="未来">你觉得未来会怎样？</chinese>
+      <pinyin abbr="t-31" short="Wèilái">Nǐ Juédé Wèilái Huì Zěnyàng?</pinyin>
+    </pub>
+    <pub code="t-32" number="39" img="happyfamilylife">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/happyfamilylife.xml</link>
+      <english abbr="t-32" short="Happy Family Life">What Is the Key to Happy Family Life?</english>
+      <chinese abbr="t-32" short="家庭幸福">家庭幸福主要靠什么？</chinese>
+      <pinyin abbr="t-32" short="Jiātíng Xìngfú">Jiātíng Xìngfú Zhǔyào Kào Shénme?</pinyin>
+    </pub>
+    <pub code="t-33" number="40" img="whocontrolstheworld">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/whocontrolstheworld.xml</link>
+      <english abbr="t-33" short="Who Controls the World?">Who Really Controls the World?</english>
+      <chinese abbr="t-33" short="控制世界">控制世界的其实是谁？</chinese>
+      <pinyin abbr="t-33" short="Kòngzhì Shìjiè">Kòngzhì Shìjiè De Qíshí Shì Shéi?</pinyin>
+    </pub>
+    <pub code="t-34" number="41" img="sufferingend">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/sufferingend.xml</link>
+      <english abbr="t-34" short="Suffering to End">All Suffering Soon to End!</english>
+      <chinese abbr="t-34" short="苦尽甘来传单">苦尽甘来，指日可待</chinese>
+      <pinyin abbr="t-34" short="Kǔjìngānlái Chuándān">Kǔjìngānlái, Zhǐrìkědài</pinyin>
+    </pub>
+    <pub code="t-35" number="42" img="knowthetruth">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/knowthetruth.xml</link>
+      <english abbr="t-35" short="Live Again">Can the Dead Really Live Again?</english>
+      <chinese abbr="t-35" short="复生">人死了真的能复生吗？</chinese>
+      <pinyin abbr="t-35" short="Fùshēng">Rén Sǐle Zhēnde Néng Fùshēng Ma?</pinyin>
+    </pub>
+    <pub code="t-36" number="43" img="kingdom">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/kingdom.xml</link>
+      <english abbr="t-36" short="Kingdom">What Is the Kingdom of God?</english>
+      <chinese abbr="t-36" short="王国">上帝的王国是什么？</chinese>
+      <pinyin abbr="t-36" short="Wángguó">Shàngdì De Wángguó Shì Shénme?</pinyin>
+    </pub>
+    <pub code="t-37" number="44" img="websitetract">
+      <link>https://dl.dropboxusercontent.com/u/826238/WT_LIB/pinyin/books/websitetract.xml</link>
+      <english abbr="t-37" short="Web site tract">Where Can We Find Answers to Life’s Big Questions?</english>
+      <chinese abbr="t-37" short="网站传单">人生种种疑问，答案在哪里？</chinese>
+      <pinyin abbr="t-37" short="Wǎngzhàn Chuándān">Rénshēng Zhǒngzhǒng Yíwèn, Dá'àn Zài Nǎlǐ?</pinyin>
+    </pub>
+
+  </Books>
+  
+</Pinyin>

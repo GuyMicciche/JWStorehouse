@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/section_button_bg">
+    <TextView
+        android:id="@+id/left_nav_item"
+        android:textSize="@dimen/document_nav_drawer_button_text"
+        android:textColor="@color/storehouse_white"
+        android:gravity="center_vertical"
+        android:padding="@dimen/bible_nav_bible_book_grid_cell_padding"
+        android:paddingRight="@dimen/document_nav_drawer_right_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.0dip"
+        android:shadowColor="#66000000"
+        android:shadowDy="-1.0"
+        android:shadowRadius="1.0"
+        android:drawablePadding="@dimen/document_nav_drawer_icon_padding_bible"
+        android:text="Hello" />
+<!--<View
+        android:id="@+id/divider"
+        android:background="@drawable/dark_bg_divider_nospacing"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_marginTop="-2.0dip"
+        android:layout_below="@id/left_nav_item" />-->
+</RelativeLayout>

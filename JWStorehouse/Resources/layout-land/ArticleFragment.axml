@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/storehouse_blue_dark">
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <!--  Layout 1 for 1st Screen -->
+        <LinearLayout
+            android:id="@+id/duel_view"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/webview_border"
+                android:paddingRight="2dip">
+                <JWStorehouse.ObservableWebView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/primaryWebView" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="2dip"
+                android:background="@drawable/webview_border">
+                <JWStorehouse.ObservableWebView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/secondaryWebView" />
+            </LinearLayout>
+        </LinearLayout>
+    <!--  Layout 2 for 2nd Screen -->
+        <LinearLayout
+            android:id="@+id/chapter_view"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="@dimen/bible_nav_bible_book_scroll_view_padding"
+            android:clipToPadding="false"
+            android:gravity="center">
+            <TextView
+                android:textSize="@dimen/nav_heading_text_size"
+                android:textColor="@color/storehouse_red"
+                android:id="@+id/chapterTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/bible_nav_bible_book_header_side_padding"
+                android:layout_marginRight="@dimen/bible_nav_bible_book_header_side_padding"
+                android:layout_marginBottom="@dimen/bible_nav_bible_book_scroll_view_padding"
+                style="?android:attr/listSeparatorTextViewStyle" />
+            <JWStorehouse.HeaderFooterGridView
+                android:id="@+id/chapterGridView"
+                android:fadingEdge="none"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:stretchMode="none"
+                android:scrollbars="none"
+                android:horizontalSpacing="@dimen/bible_nav_chapter_grid_spacing"
+                android:verticalSpacing="@dimen/bible_nav_chapter_grid_spacing"
+                android:columnWidth="@dimen/bible_nav_chapter_grid_width" />
+        </LinearLayout>
+    <!--  Layout 3 for 3rd Screen -->
+    <!--
+        <JWStorehouse.ObservableWebView
+            android:id="@+id/fullScreenWebView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />-->
+    </ViewFlipper>
+</LinearLayout>

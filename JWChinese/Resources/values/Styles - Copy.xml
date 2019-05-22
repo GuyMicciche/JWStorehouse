@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+
+
+
+  <style name="Theme.Storehouse" parent="Theme.Sherlock.Light">
+    <item name="android:actionBarStyle">@style/Theme.Storehouse.ActionBar</item>
+    <item name="actionBarStyle">@style/Theme.Storehouse.ActionBar</item>
+    <item name="actionMenuTextColor">@android:color/white</item>
+    <item name="android:actionMenuTextColor">@android:color/white</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionBar" parent="Widget.Sherlock.ActionBar">
+    <item name="android:background">#ff0481d4</item>
+    <item name="background">#ff0481d4</item>
+    <item name="android:height">64dip</item>
+    <item name="height">64dip</item>
+
+    <item name="android:titleTextStyle">@style/Theme.Storehouse.ActionBar.TitleTextStyle</item>
+    <item name="titleTextStyle">@style/Theme.Storehouse.ActionBar.TitleTextStyle</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionBar.TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">32sp</item>
+  </style>
+
+
+
+
+  <style name="Theme.Storehouse.Dialog" parent="Theme.Sherlock.Light">
+    <item name="android:windowTitleStyle">@style/Theme.Storehouse.DialogWindowTitle.Sherlock.Light</item>
+  </style>
+
+  <style name="Theme.Storehouse.DialogWindowTitle.Sherlock.Light" parent="DialogWindowTitle.Sherlock.Light">
+    <item name="android:textAppearance">@style/Theme.Storehouse.TextAppearance.Sherlock.DialogWindowTitle</item>
+  </style>
+
+  <style name="Theme.Storehouse.TextAppearance.Sherlock.DialogWindowTitle" parent="TextAppearance.Sherlock.DialogWindowTitle">
+    <item name="android:textSize">22sp</item>
+    <item name="android:textColor">#9933CC</item>
+  </style>
+
+
+
+
+  <style name="CustomTheme" parent="@android:style/Theme.Holo.Light">
+    <item name="android:alertDialogTheme">@style/CustomDialogTheme</item>
+    <item name="android:dialogTheme">@style/CustomDialogTheme</item>
+  </style>
+
+  <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+    <item name="@android:background">#9933CC</item>
+    <item name="@android:textColor">#9933CC</item>
+  </style>
+
+
+
+
+
+  <style name="Theme.Storehouse.AlertDialogStyle" parent="@android:style/Theme.Holo.Light.Dialog">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowTitleStyle">@style/Theme.Storehouse.DialogWindowTitle</item>
+    <item name="windowContentOverlay">@null</item>
+    <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+    <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+  </style>
+
+  <style name="Theme.Storehouse.DialogWindowTitle" parent="Widget">
+    <item name="android:background">#00000000</item>
+    <item name="android:maxLines">1</item>
+    <item name="android:scrollHorizontally">true</item>
+    <item name="android:textAppearance">@style/Theme.Storehouse.TextAppearance.DialogWindowTitle</item>
+  </style>
+
+  <style name="Theme.Storehouse.TextAppearance.DialogWindowTitle" parent="TextAppearance.Sherlock.DialogWindowTitle">
+    <item name="android:textSize">22sp</item>
+    <item name="android:textColor">#ff0481d4</item>
+  </style>
+
+</resources>

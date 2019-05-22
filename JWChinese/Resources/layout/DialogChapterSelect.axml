@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F6F6F6"
+    android:clipToPadding="false">
+    <JWChinese.HeaderFooterGridView
+        android:id="@+id/chapterSelectGridView"
+        android:fadingEdge="none"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchMode="none"
+        android:scrollbars="none"
+        android:padding="@dimen/bible_nav_bible_book_scroll_view_padding"
+        android:horizontalSpacing="@dimen/bible_nav_chapter_grid_spacing"
+        android:verticalSpacing="@dimen/bible_nav_chapter_grid_spacing"
+        android:columnWidth="@dimen/bible_nav_chapter_grid_width" />
+</LinearLayout>

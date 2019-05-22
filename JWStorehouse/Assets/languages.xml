@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Languages>
+  <l r="142" c="ac" n="Acholi" ln="Acholi">Acholi - Acholi</l>
+  <l r="52" c="af" n="Afrikaans" ln="Afrikaans">Afrikaans - Afrikaans</l>
+  <l r="41" c="al" n="Albanian" ln="Shqip">Albanian - Shqip</l>
+  <l r="93" c="am" n="Amharic" ln="Amharic">Amharic - Amharic</l>
+  <l r="39" c="a" n="Arabic" ln="العربية">Arabic - العربية</l>
+  <l r="44" c="rea" n="Armenian" ln="Հայերեն">Armenian - Հայերեն</l>
+  <l r="58" c="ap" n="Aymara" ln="Aymara">Aymara - Aymara</l>
+  <l r="81" c="ajr" n="Azerbaijani" ln="Azerbaijani">Azerbaijani - Azerbaijani</l>
+  <l r="120" c="ao" n="Baoule" ln="Baoule">Baoule - Baoule</l>
+  <l r="137" c="be" n="Bengali" ln="Bengali">Bengali - Bengali</l>
+  <l r="104" c="bi" n="Bicol" ln="Bicol">Bicol - Bicol</l>
+  <l r="135" c="lm" n="Bislama" ln="Bislama">Bislama - Bislama</l>
+  <l r="46" c="bl" n="Bulgarian" ln="Български">Bulgarian - Български</l>
+  <l r="155" c="cq" n="Cakchiquel" ln="Cakchiquel">Cakchiquel - Cakchiquel</l>
+  <l r="124" c="cb" n="Cambodian" ln="Cambodian">Cambodian - Cambodian</l>
+  <l r="55" c="an" n="Catalan" ln="Català">Catalan - Català</l>
+  <l r="101" c="cv" n="Cebuano" ln="Cebuano">Cebuano - Cebuano</l>
+  <l r="107" c="cn" n="Chichewa" ln="Chichewa">Chichewa - Chichewa</l>
+  <l r="23" c="chs" n="Chinese (Simplified)" ln="汉语(简化字)">Chinese (Simplified) - 汉语(简化字)</l>
+  <l r="24" c="ch" n="Chinese (Traditional)" ln="漢語(繁體字)">Chinese (Traditional) - 漢語(繁體字)</l>
+  <l r="23" c="chs-pi" n="Chinese (Pinyin)" ln="Chinese (Pinyin)">Chinese (Pinyin) - Hànyǔ (Pīnyīn)</l>
+  <l r="70" c="cg" n="Chitonga" ln="Chitonga">Chitonga - Chitonga</l>
+  <l r="172" c="ya" n="Chiyao" ln="Yao">Chiyao - Yao</l>
+  <l r="61" c="cw" n="Cibemba" ln="Cibemba">Cibemba - Cibemba</l>
+  <l r="66" c="cin" n="Cinyanja" ln="Cinyanja">Cinyanja - Cinyanja</l>
+  <l r="19" c="c" n="Croatian" ln="Hrvatski">Croatian - Hrvatski</l>
+  <l r="29" c="b" n="Czech" ln="Česky">Czech - Česky</l>
+  <l r="9" c="d" n="Danish" ln="Dansk">Danish - Dansk</l>
+  <l r="132" c="lf" n="Drehu" ln="Lifu">Drehu - Lifu</l>
+  <l r="18" c="o" n="Dutch" ln="Nederlands">Dutch - Nederlands</l>
+  <l r="35" c="ef" n="Efik" ln="Efịk">Efik - Efịk</l>
+  <l r="1" c="e" n="English" ln="English">English - English</l>
+  <l r="37" c="st" n="Estonian" ln="Eesti">Estonian - Eesti</l>
+  <l r="114" c="ew" n="Ewe" ln="Ewe">Ewe - Ewe</l>
+  <l r="169" c="fn" n="Fijian" ln="Fijian">Fijian - Fijian</l>
+  <l r="16" c="fi" n="Finnish" ln="Suomi">Finnish - Suomi</l>
+  <l r="30" c="f" n="French" ln="Français">French - Français</l>
+  <l r="121" c="ga" n="Ga" ln="Ga">Ga - Ga</l>
+  <l r="158" c="grf" n="Garifuna" ln="Garifuna">Garifuna - Garifuna</l>
+  <l r="20" c="ge" n="Georgian" ln="ქართული">Georgian - ქართული</l>
+  <l r="10" c="x" n="German" ln="Deutsch">German - Deutsch</l>
+  <l r="11" c="g" n="Greek" ln="Ελληνική">Greek - Ελληνική</l>
+  <l r="140" c="gl" n="Greenlandic" ln="Kalaallisut">Greenlandic - Kalaallisut</l>
+  <l r="48" c="gi" n="Guarani" ln="Guarani">Guarani - Guarani</l>
+  <l r="73" c="gu" n="Gujarati" ln="Gujarati">Gujarati - Gujarati</l>
+  <l r="63" c="eg" n="Gun" ln="Gun">Gun - Gun</l>
+  <l r="60" c="cr" n="Haitian Creole" ln="Haitian Creole">Haitian Creole - Haitian Creole</l>
+  <l r="145" c="q" n="Hebrew" ln="עברית">Hebrew - עברית</l>
+  <l r="168" c="hr" n="Herero" ln="Herero">Herero - Herero</l>
+  <l r="94" c="hv" n="Hiligaynon" ln="Hiligaynon">Hiligaynon - Hiligaynon</l>
+  <l r="108" c="hi" n="Hindi" ln="हिन्दी">Hindi - हिन्दी</l>
+  <l r="74" c="mo" n="Hiri Motu" ln="Hiri Motu">Hiri Motu - Hiri Motu</l>
+  <l r="78" c="hm" n="Hmong" ln="Hmong">Hmong - Hmong</l>
+  <l r="17" c="h" n="Hungarian" ln="Magyar">Hungarian - Magyar</l>
+  <l r="89" c="ic" n="Icelandic" ln="Íslenska">Icelandic - Íslenska</l>
+  <l r="31" c="ib" n="Igbo" ln="Igbo">Igbo - Igbo</l>
+  <l r="115" c="il" n="Iloko" ln="Iloko">Iloko - Iloko</l>
+  <l r="25" c="in" n="Indonesian" ln="Bahasa Indonesia">Indonesian - Bahasa Indonesia</l>
+  <l r="6" c="i" n="Italian" ln="Italiano">Italian - Italiano</l>
+  <l r="7" c="j" n="Japanese" ln="日本語">Japanese - 日本語</l>
+  <l r="167" c="ka" n="Kannada" ln="Kannada">Kannada - Kannada</l>
+  <l r="43" c="az" n="Kazakh" ln="Қазақша">Kazakh - Қазақша</l>
+  <l r="157" c="gk" n="Kekchi" ln="Kekchi">Kekchi - Kekchi</l>
+  <l r="148" c="kb" n="Kikamba" ln="Kikamba">Kikamba - Kikamba</l>
+  <l r="68" c="kd" n="Kikaonde" ln="Kikaonde">Kikaonde - Kikaonde</l>
+  <l r="128" c="kg" n="Kikongo" ln="Kikongo">Kikongo - Kikongo</l>
+  <l r="95" c="kq" n="Kikuyu" ln="Kikuyu">Kikuyu - Kikuyu</l>
+  <l r="149" c="kim" n="Kimbundu" ln="Kimbundu">Kimbundu - Kimbundu</l>
+  <l r="127" c="yw" n="Kinyarwanda" ln="Kinyarwanda">Kinyarwanda - Kinyarwanda</l>
+  <l r="51" c="kz" n="Kirghiz" ln="кыргызча">Kirghiz - кыргызча</l>
+  <l r="82" c="ru" n="Kirundi" ln="Kirundi">Kirundi - Kirundi</l>
+  <l r="8" c="ko" n="Korean" ln="한국어">Korean - 한국어</l>
+  <l r="151" c="kri" n="Krio" ln="Krio">Krio - Krio</l>
+  <l r="150" c="wg" n="Kwangali" ln="Kwangali">Kwangali - Kwangali</l>
+  <l r="166" c="ky" n="Kwanyama" ln="Kwanyama">Kwanyama - Kwanyama</l>
+  <l r="65" c="ab" n="Lamba" ln="Lamba">Lamba - Lamba</l>
+  <l r="161" c="la" n="Lhukonzo" ln="Lhukonzo">Lhukonzo - Lhukonzo</l>
+  <l r="126" c="li" n="Lingala" ln="Lingala">Lingala - Lingala</l>
+  <l r="32" c="l" n="Lithuanian" ln="Lietuvių">Lithuanian - Lietuvių</l>
+  <l r="138" c="lu" n="Luganda" ln="Luganda">Luganda - Luganda</l>
+  <l r="69" c="ld" n="Lunda" ln="Lunda">Lunda - Lunda</l>
+  <l r="133" c="lo" n="Luo" ln="Luo">Luo - Luo</l>
+  <l r="67" c="lv" n="Luvale" ln="Luvale">Luvale - Luvale</l>
+  <l r="102" c="mc" n="Macedonian" ln="Македонски">Macedonian - Македонски</l>
+  <l r="26" c="mg" n="Malagasy" ln="Malagasy">Malagasy - Malagasy</l>
+  <l r="118" c="ml" n="Malay" ln="Malay">Malay - Malay</l>
+  <l r="162" c="my" n="Malayalam" ln="Malayalam">Malayalam - Malayalam</l>
+  <l r="86" c="mt" n="Maltese" ln="Maltese">Maltese - Maltese</l>
+  <l r="160" c="mz" n="Mam" ln="Mam">Mam - Mam</l>
+  <l r="171" c="mr" n="Marathi" ln="Marathi">Marathi - Marathi</l>
+  <l r="40" c="may" n="Maya" ln="Maya">Maya - Maya</l>
+  <l r="96" c="maz" n="Mazatec (Huautla)" ln="Mazatec (Huautla)">Mazatec (Huautla) - Mazatec (Huautla)</l>
+  <l r="152" c="mis" n="Miskito" ln="Miskito">Miskito - Miskito</l>
+  <l r="106" c="mx" n="Mixe" ln="Mixe">Mixe - Mixe</l>
+  <l r="159" c="kha" n="Mongolian" ln="Mongolian">Mongolian - Mongolian</l>
+  <l r="144" c="bu" n="Ndebele" ln="Ndebele">Ndebele - Ndebele</l>
+  <l r="170" c="od" n="Ndonga" ln="Ndonga">Ndonga - Ndonga</l>
+  <l r="56" c="np" n="Nepali" ln="नेपाली">Nepali - नेपाली</l>
+  <l r="3" c="n" n="Norwegian" ln="Norsk">Norwegian - Norsk</l>
+  <l r="141" c="nk" n="Nyaneka" ln="Nyaneka">Nyaneka - Nyaneka</l>
+  <l r="130" c="nz" n="Nzema" ln="Nzema">Nzema - Nzema</l>
+  <l r="112" c="oa" n="Oromo" ln="Oromo">Oromo - Oromo</l>
+  <l r="97" c="oss" n="Ossetian" ln="Ossetian">Ossetian - Ossetian</l>
+  <l r="116" c="pn" n="Pangasinan" ln="Pangasinan">Pangasinan - Pangasinan</l>
+  <l r="99" c="pa" n="Papiamento (Curaçao)" ln="Papiamento (Curaçao)">Papiamento (Curaçao) - Papiamento (Curaçao)</l>
+  <l r="76" c="pr" n="Persian" ln="فارسی">Persian - فارسی</l>
+  <l r="12" c="p" n="Polish" ln="Polski">Polish - Polski</l>
+  <l r="136" c="pp" n="Ponapean" ln="Ponapean">Ponapean - Ponapean</l>
+  <l r="5" c="t" n="Portuguese" ln="Português">Portuguese - Português</l>
+  <l r="79" c="pj" n="Punjabi" ln="Punjabi">Punjabi - Punjabi</l>
+  <l r="80" c="qun" n="Quechua (Ancash)" ln="Quechua (Ancash)">Quechua (Ancash) - Quechua (Ancash)</l>
+  <l r="57" c="qua" n="Quechua (Ayacucho)" ln="Quechua (Ayacucho)">Quechua (Ayacucho) - Quechua (Ayacucho)</l>
+  <l r="53" c="qub" n="Quechua (Bolivia)" ln="Quechua (Bolivia)">Quechua (Bolivia) - Quechua (Bolivia)</l>
+  <l r="62" c="qu" n="Quechua (Cuzco)" ln="Quechua (Cuzco)">Quechua (Cuzco) - Quechua (Cuzco)</l>
+  <l r="156" c="qc" n="Quiche" ln="Quiche">Quiche - Quiche</l>
+  <l r="34" c="m" n="Romanian" ln="Română">Romanian - Română</l>
+  <l r="122" c="rr" n="Runyankore" ln="Runyankore">Runyankore - Runyankore</l>
+  <l r="2" c="u" n="Russian" ln="Русский">Russian - Русский</l>
+  <l r="87" c="sg" n="Sango" ln="Sango">Sango - Sango</l>
+  <l r="165" c="se" n="Sepedi" ln="Sepedi">Sepedi - Sepedi</l>
+  <l r="54" c="sb" n="Serbian" ln="Српски">Serbian - Српски</l>
+  <l r="21" c="su" n="Sesotho" ln="Sesotho">Sesotho - Sesotho</l>
+  <l r="129" c="tn" n="Setswana" ln="Tswana">Setswana - Tswana</l>
+  <l r="45" c="ca" n="Shona" ln="Shona">Shona - Shona</l>
+  <l r="105" c="dm" n="Sidama" ln="Sidama">Sidama - Sidama</l>
+  <l r="72" c="sk" n="Silozi" ln="Silozi">Silozi - Silozi</l>
+  <l r="125" c="sn" n="Sinhala" ln="Sinhala">Sinhala - Sinhala</l>
+  <l r="38" c="v" n="Slovak" ln="Slovenčina">Slovak - Slovenčina</l>
+  <l r="64" c="sv" n="Slovenian" ln="Slovenščina">Slovenian - Slovenščina</l>
+  <l r="103" c="sp" n="Solomon Islands Pidgin" ln="Solomon Islands Pidgin">Solomon Islands Pidgin - Solomon Islands Pidgin</l>
+  <l r="4" c="s" n="Spanish" ln="Español">Spanish - Español</l>
+  <l r="50" c="sr" n="Sranantongo" ln="Sranantongo">Sranantongo - Sranantongo</l>
+  <l r="143" c="zs" n="Swahili (Congo)" ln="Swahili (Congo)">Swahili (Congo) - Swahili (Congo)</l>
+  <l r="13" c="sw" n="Swahili" ln="Kiswahili">Swahili - Kiswahili</l>
+  <l r="88" c="swi" n="Swati" ln="Swati">Swati - Swati</l>
+  <l r="14" c="z" n="Swedish" ln="Svenska">Swedish - Svenska</l>
+  <l r="27" c="tg" n="Tagalog" ln="Tagalog">Tagalog - Tagalog</l>
+  <l r="154" c="th" n="Tahitian" ln="Tahitian">Tahitian - Tahitian</l>
+  <l r="77" c="tj" n="Tajiki" ln="Tajiki">Tajiki - Tajiki</l>
+  <l r="123" c="tl" n="Tamil" ln="Tamil">Tamil - Tamil</l>
+  <l r="100" c="tat" n="Tatar" ln="Tatar">Tatar - Tatar</l>
+  <l r="146" c="tu" n="Telugu" ln="Telugu">Telugu - Telugu</l>
+  <l r="71" c="ttp" n="Tetum" ln="Tetum">Tetum - Tetum</l>
+  <l r="113" c="si" n="Thai" ln="ไทย">Thai - ไทย</l>
+  <l r="119" c="ti" n="Tongan" ln="Tongan">Tongan - Tongan</l>
+  <l r="90" c="tot" n="Totonac" ln="Totonac">Totonac - Totonac</l>
+  <l r="84" c="ts" n="Tsonga" ln="Tsonga">Tsonga - Tsonga</l>
+  <l r="22" c="tk" n="Turkish" ln="Türkçe">Turkish - Türkçe</l>
+  <l r="131" c="tm" n="Turkmen (Cyrillic)" ln="Turkmen">Turkmen (Cyrillic) - Turkmen</l>
+  <l r="153" c="vl" n="Tuvaluan" ln="Tuvaluan">Tuvaluan - Tuvaluan</l>
+  <l r="33" c="tw" n="Twi" ln="Twi">Twi - Twi</l>
+  <l r="91" c="tzo" n="Tzotzil" ln="Tzotzil">Tzotzil - Tzotzil</l>
+  <l r="15" c="k" n="Ukrainian" ln="Українська">Ukrainian - Українська</l>
+  <l r="92" c="ub" n="Umbundu" ln="Umbundu">Umbundu - Umbundu</l>
+  <l r="109" c="ud" n="Urdu" ln="Urdu">Urdu - Urdu</l>
+  <l r="42" c="uz" n="Uzbek" ln="Ўзбекча">Uzbek - Ўзбекча</l>
+  <l r="164" c="ve" n="Venda" ln="Venda">Venda - Venda</l>
+  <l r="47" c="vt" n="Vietnamese" ln="Tiếng Việt">Vietnamese - Tiếng Việt</l>
+  <l r="134" c="wa" n="Wallisian" ln="Wallisian">Wallisian - Wallisian</l>
+  <l r="110" c="sa" n="Waray-Waray" ln="Waray-Waray">Waray-Waray - Waray-Waray</l>
+  <l r="147" c="wy" n="Wayuunaiki" ln="Wayuunaiki">Wayuunaiki - Wayuunaiki</l>
+  <l r="59" c="w" n="Welsh" ln="Cymraeg">Welsh - Cymraeg</l>
+  <l r="117" c="wl" n="Wolaita" ln="Wolaita">Wolaita - Wolaita</l>
+  <l r="163" c="xo" n="Xhosa" ln="Xhosa">Xhosa - Xhosa</l>
+  <l r="36" c="yr" n="Yoruba" ln="Yorùbá">Yoruba - Yorùbá</l>
+  <l r="111" c="zpi" n="Zapotec (Isthmus)" ln="Zapotec (Isthmus)">Zapotec (Isthmus) - Zapotec (Isthmus)</l>
+  <l r="28" c="zu" n="Zulu" ln="IsiZulu">Zulu - IsiZulu</l>
+</Languages>

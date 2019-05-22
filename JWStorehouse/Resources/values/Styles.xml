@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+
+
+
+  <style name="Theme.Storehouse" parent="Theme.Sherlock">
+    <item name="android:typeface">monospace</item>
+    <item name="android:windowBackground">@color/storehouse_blue_dark</item>
+    <item name="android:actionBarStyle">@style/Theme.Storehouse.ActionBar</item>
+    <item name="actionBarStyle">@style/Theme.Storehouse.ActionBar</item>
+    <item name="actionMenuTextColor">@android:color/white</item>
+    <item name="actionBarSize">@dimen/abs__action_bar_default_height</item>
+    <item name="android:actionBarSize">@dimen/abs__action_bar_default_height</item>
+    <item name="android:actionMenuTextColor">@android:color/white</item>
+    <item name="android:actionModeStyle">@style/Theme.Storehouse.ActionMode</item>
+    <item name="android:actionBarItemBackground">@drawable/metro_abs_selectableitem_style</item>
+    <item name="android:popupMenuStyle">@style/Theme.Storehouse.PopupMenu</item>
+    <!--<item name="android:spinnerDropDownItemStyle">@style/Theme.Storehouse.SpinnerItem</item>-->
+    <item name="android:dropDownListViewStyle">@style/Theme.Storehouse.DropDownListView</item>
+    <item name="android:actionBarWidgetTheme">@style/Theme.Storehouse.ActionBarWidget</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionBar" parent="Widget.Sherlock.ActionBar">
+    <item name="background">@color/storehouse_red</item>
+    <item name="android:background">@color/storehouse_red</item>
+    <item name="height">@dimen/abs__action_bar_default_height</item>
+    <item name="android:height">@dimen/abs__action_bar_default_height</item>
+    <item name="titleTextStyle">@style/Theme.Storehouse.ActionBar.TitleTextStyle</item>
+    <item name="android:titleTextStyle">@style/Theme.Storehouse.ActionBar.TitleTextStyle</item>
+    <item name="subtitleTextStyle">@style/Theme.Storehouse.ActionBar.SubtitleTextStyle</item>
+    <item name="android:subtitleTextStyle">@style/Theme.Storehouse.ActionBar.SubtitleTextStyle</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionBar.TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/storehouse_blue_light</item>
+    <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionBar.SubtitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/storehouse_white</item>
+    <item name="android:textSize">@dimen/abs__action_bar_subtitle_text_size</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionMode" parent="Theme.Sherlock.Light">
+    <item name="android:actionModeBackground">@color/storehouse_red</item>
+  </style>
+
+  <style name="Theme.Storehouse.PopupMenu" parent="Widget.Sherlock.ListPopupWindow">
+    <item name="android:popupBackground">@color/storehouse_black</item>
+  </style>
+
+  <style name="Theme.Storehouse.DropDownListView" parent="Widget.Sherlock.ListView.DropDown">
+    <item name="android:listSelector">@drawable/metro_abs_selectablelistitem_style</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionBarWidget" parent="Theme.Sherlock">
+    <item name="android:popupMenuStyle">@style/Theme.Storehouse.PopupMenu</item>
+    <item name="android:dropDownListViewStyle">@style/Theme.Storehouse.DropDownListView</item>
+  </style>
+
+  <style name="Theme.Storehouse.SpinnerItem">
+    <item name="android:textColor">@color/metro_spinner_text_style</item>
+    <item name="android:background">@drawable/metro_abs_selectableitem_style</item>
+  </style>
+
+
+
+
+  <style name="Theme.Storehouse.Dialog" parent="Theme.Sherlock.Light">
+    <item name="android:windowTitleStyle">@style/Theme.Storehouse.DialogWindowTitle.Sherlock.Light</item>
+  </style>
+
+  <style name="Theme.Storehouse.DialogWindowTitle.Sherlock.Light" parent="Theme.Sherlock.Light">
+    <item name="android:textAppearance">@style/Theme.Storehouse.TextAppearance.Sherlock.DialogWindowTitle</item>
+  </style>
+
+  <style name="Theme.Storehouse.TextAppearance.Sherlock.DialogWindowTitle" parent="Theme.Sherlock.Light">
+    <item name="android:textSize">22sp</item>
+    <item name="android:textColor">#9933CC</item>
+  </style>
+
+
+
+
+  <style name="CustomTheme" parent="@android:style/Theme.Holo.Light">
+    <item name="android:alertDialogTheme">@style/CustomDialogTheme</item>
+    <item name="android:dialogTheme">@style/CustomDialogTheme</item>
+  </style>
+
+  <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+    <item name="@android:background">#9933CC</item>
+    <item name="@android:textColor">#9933CC</item>
+  </style>
+
+
+
+
+
+  <style name="Theme.Storehouse.AlertDialogStyle" parent="@android:style/Theme.Holo.Dialog">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowTitleStyle">@style/Theme.Storehouse.DialogWindowTitle</item>
+    <item name="windowContentOverlay">@null</item>
+    <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+    <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+  </style>
+
+  <style name="Theme.Storehouse.DialogWindowTitle" parent="Widget">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:maxLines">1</item>
+    <item name="android:scrollHorizontally">true</item>
+    <item name="android:textAppearance">@style/Theme.Storehouse.DialogWindowTitle</item>
+  </style>
+
+  <style name="Theme.Storehouse.DialogWindowTitle" parent="@android:style/Theme.Holo.Dialog">
+    <item name="android:textColor">@color/storehouse_red</item>
+  </style>
+
+
+  <!--<style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+    <item name="android:bottomBright">@color/white</item>
+    <item name="android:bottomDark">@color/white</item>
+    <item name="android:bottomMedium">@color/white</item>
+    <item name="android:centerBright">@color/white</item>
+    <item name="android:centerDark">@color/white</item>
+    <item name="android:centerMedium">@color/white</item>
+    <item name="android:fullBright">@color/orange</item>
+    <item name="android:fullDark">@color/orange</item>
+    <item name="android:topBright">@color/blue</item>
+    <item name="android:topDark">@color/blue</item>
+  </style>-->
+
+</resources>

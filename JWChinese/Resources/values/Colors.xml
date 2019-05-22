@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <color name="storehouse_dark_blue">#2f3638</color>
+  <color name="storehouse_blue">#655e5e</color>
+  <color name="storehouse_blue_accent">#04d3b8</color>
+  <color name="storehouse_blue_light">#e6e7e8</color>
+  <color name="storehouse_blue_medium">#ccc8c8</color>
+  <color name="storehouse_blue_dark">#332f2f</color>
+  
+  <color name="storehouse_white">#ffffff</color>
+  <color name="storehouse_black">#000000</color>
+
+  <color name="storehouse_red">#d3041f</color>
+  <color name="storehouse_jw_purple">#9933CC</color>
+  <color name="storehouse_king_purple">#432337</color>
+
+
+  <drawable name="storehouse_dark_blue">#2f3638</drawable>
+  <drawable name="storehouse_blue">#655e5e</drawable>
+  <drawable name="storehouse_blue_light">#e6e7e8</drawable>
+  <drawable name="storehouse_blue_medium">#ccc8c8</drawable>
+  <drawable name="storehouse_blue_dark">#332f2f</drawable>
+
+  <drawable name="storehouse_white">#ffffff</drawable>
+  <drawable name="storehouse_black">#000000</drawable>
+
+  <drawable name="storehouse_red">#d3041f</drawable>
+  <drawable name="storehouse_jw_purple">#9933CC</drawable>
+  <drawable name="storehouse_king_purple">#432337</drawable>
+
+</resources>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  
+  <string-array name="LibraryNavigation">
+    <item>Bible</item>
+    <item>Insight</item>
+    <item>Daily Text</item>
+    <item>Publications</item>
+  </string-array>
+
+  <string-array name="LibraryNavigationChinese">
+    <item>圣经</item>
+    <item>洞悉</item>
+    <item>每日经文</item>
+    <item>出版物</item>
+  </string-array>
+
+  <string-array name="LibraryNavigationPinyin">
+    <item>Shèngjīng\n圣经</item>
+    <item>Dòngxī\n洞悉</item>
+    <item>Měirì Jīngwén\n每日经文</item>
+    <item>Chūbǎnwù\n出版物</item>
+  </string-array>
+
+  <!-- Nav Drawer List Item Icons -->
+  <!-- Keep them in order as the titles are in -->
+  <array name="nav_drawer_icons">
+    <item>@drawable/nav_bible</item>
+    <item>@drawable/nav_insight</item>
+    <item>@drawable/nav_dailytext</item>
+    <item>@drawable/nav_publications</item>
+  </array>
+
+  <string-array name="PublicationType">
+    <item>nwt</item>
+    <item>it</item>
+    <item>es</item>
+    <item>books</item>
+  </string-array>
+
+  <string-array name="donation_google_catalog_values">
+    <item>$1.00 US</item>
+    <item>$2.00 US</item>
+    <item>$3.00 US</item>
+    <item>$5.00 US</item>
+    <item>$7.00 US</item>
+    <item>$14.00 US</item>
+    <item>$20.00 US</item>
+    <item>$50.00 US</item>
+  </string-array>
+  
+</resources>

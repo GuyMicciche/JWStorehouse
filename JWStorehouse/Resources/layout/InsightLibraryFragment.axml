@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/bible_nav_bible_book_scroll_view_padding"
+    android:paddingLeft="@dimen/bible_nav_bible_book_scroll_view_padding"
+    android:paddingRight="@dimen/bible_nav_bible_book_scroll_view_padding"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/storehouse_blue_dark">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0">
+        <TextView
+            android:textSize="@dimen/nav_heading_text_size"
+            android:textColor="@color/storehouse_red"
+            android:id="@+id/primaryLibraryTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/bible_nav_bible_book_header_side_padding"
+            android:layout_marginRight="@dimen/bible_nav_bible_book_header_side_padding"
+            style="?android:attr/listSeparatorTextViewStyle" />
+        <StickyGridHeaders.StickyGridHeadersGridView
+            android:id="@+id/insightPrimaryGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:numColumns="auto_fit"
+            android:scrollbars="none"
+            android:columnWidth="@dimen/bible_nav_bible_book_grid_width"
+            android:horizontalSpacing="@dimen/bible_nav_bible_book_grid_horizontal_spacing"
+            android:verticalSpacing="@dimen/bible_nav_bible_book_grid_vertical_spacing"
+            android:paddingBottom="@dimen/bible_nav_bible_book_scroll_view_padding" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dip">
+        <TextView
+            android:textSize="@dimen/nav_heading_text_size"
+            android:textColor="@color/storehouse_red"
+            android:id="@+id/secondaryLibraryTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/bible_nav_bible_book_header_side_padding"
+            android:layout_marginTop="@dimen/bible_nav_bible_book_header_top_padding"
+            android:layout_marginRight="@dimen/bible_nav_bible_book_header_side_padding"
+            style="?android:attr/listSeparatorTextViewStyle" />
+        <StickyGridHeaders.StickyGridHeadersGridView
+            android:id="@+id/insightSecondaryGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:numColumns="auto_fit"
+            android:scrollbars="none"
+            android:columnWidth="@dimen/bible_nav_bible_book_grid_width"
+            android:horizontalSpacing="@dimen/bible_nav_bible_book_grid_horizontal_spacing"
+            android:verticalSpacing="@dimen/bible_nav_bible_book_grid_vertical_spacing"
+            android:paddingBottom="@dimen/bible_nav_bible_book_scroll_view_padding" />
+    </LinearLayout>
+</LinearLayout>

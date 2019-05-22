@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+
+	<style name="Theme.Storehouse.Material" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/storehouse_red</item>
+    <item name="colorPrimaryDark">@color/storehouse_blue_dark</item>
+    <item name="colorAccent">@color/storehouse_king_purple</item>
+    <item name="android:windowBackground">@drawable/app_background_light</item>
+    <item name="android:colorEdgeEffect">@color/storehouse_king_purple</item>
+    <item name="actionBarStyle">@style/Theme.Storehouse.ActionBar</item>
+    <item name="android:actionBarStyle">@style/Theme.Storehouse.ActionBar</item>
+    <item name="android:activatedBackgroundIndicator">@drawable/section_button_bg</item>
+    <item name="actionBarSize">@dimen/abs__action_bar_default_height</item>
+    <item name="android:actionBarSize">@dimen/abs__action_bar_default_height</item>
+    <item name="drawerArrowStyle">@style/Theme.Storehouse.DrawerArrowStyle</item>
+    <!--<item name="android:progressBarStyleHorizontal">@style/Theme.Storehouse.ProgressBar</item>-->
+    <item name="android:seekBarStyle">@style/Theme.Storehouse.SeekBar</item>
+  </style>
+
+  <style name="Theme.Storehouse" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:typeface">monospace</item>
+    <item name="android:windowBackground">@color/storehouse_blue</item>
+    <item name="android:progressBarStyle">@style/Theme.Storehouse.ProgressBar</item>
+    <item name="progressBarStyle">@style/Theme.Storehouse.ProgressBar</item>
+    <item name="android:seekBarStyle">@style/Theme.Storehouse.SeekBar</item>
+    <item name="android:actionBarStyle">@style/Theme.Storehouse.ActionBar</item>
+    <item name="actionBarStyle">@style/Theme.Storehouse.ActionBar</item>
+    <item name="actionMenuTextColor">@android:color/white</item>
+    <item name="actionBarSize">@dimen/abs__action_bar_default_height</item>
+    <item name="android:actionBarSize">@dimen/abs__action_bar_default_height</item>
+    <item name="android:actionMenuTextColor">@android:color/white</item>
+    <item name="drawerArrowStyle">@style/Theme.Storehouse.DrawerArrowStyle</item>
+    <item name="android:actionButtonStyle">@style/Theme.Storehouse.ActionButtonStyle</item>
+    <item name="actionButtonStyle">@style/Theme.Storehouse.ActionButtonStyle</item>
+    <!--<item name="android:actionModeStyle">@style/Theme.Storehouse.ActionMode</item>-->
+    <!--<item name="android:actionBarItemBackground">@drawable/metro_abs_selectableitem_style</item>-->
+    <item name="android:popupMenuStyle">@style/Theme.Storehouse.PopupMenu</item>
+    <item name="popupMenuStyle">@style/Theme.Storehouse.PopupMenu</item>
+    <item name="android:dropDownListViewStyle">@style/Theme.Storehouse.DropDownListView</item>
+    <item name="dropDownListViewStyle">@style/Theme.Storehouse.DropDownListView</item>
+    <!--<item name="android:actionBarWidgetTheme">@style/Theme.Storehouse.ActionBarWidget</item>-->
+  </style>
+
+  <style name="Theme.Storehouse.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    <item name="background">@drawable/storehouse_king_purple</item>
+    <item name="android:background">@drawable/storehouse_king_purple</item>
+    <item name="titleTextStyle">@style/Theme.Storehouse.ActionBar.TitleTextStyle</item>
+    <item name="android:titleTextStyle">@style/Theme.Storehouse.ActionBar.TitleTextStyle</item>
+    <item name="subtitleTextStyle">@style/Theme.Storehouse.ActionBar.SubtitleTextStyle</item>
+    <item name="android:subtitleTextStyle">@style/Theme.Storehouse.ActionBar.SubtitleTextStyle</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionBar.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/storehouse_white</item>
+    <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
+  </style>
+  
+  <style name="Theme.Storehouse.ActionBar.SubtitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+    <item name="android:textColor">@color/storehouse_blue_light</item>
+    <item name="android:textSize">@dimen/abs__action_bar_subtitle_text_size</item>
+  </style>
+  
+  <style name="Theme.Storehouse.DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+    <item name="spinBars">true</item>
+    <item name="color">@android:color/white</item>
+</style>
+
+  <style name="Theme.Storehouse.ActionMode" parent="@style/Widget.AppCompat.Light.ActionBar">
+    <item name="android:actionModeBackground">@color/storehouse_red</item>
+  </style>
+
+  <style name="Theme.Storehouse.PopupMenu" parent="@style/Widget.AppCompat.ListPopupWindow">
+    <item name="android:popupBackground">@color/storehouse_black</item>
+  </style>
+
+  <style name="Theme.Storehouse.DropDownListView" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+    <item name="android:listSelector">@drawable/metro_abs_selectablelistitem_style</item>
+  </style>
+
+  <!--<style name="Theme.Storehouse.ActionBarWidget" parent="@style/Widget.AppCompat.Light.ActionBar">
+    <item name="android:popupMenuStyle">@style/Theme.Storehouse.PopupMenu</item>
+    <item name="android:dropDownListViewStyle">@style/Theme.Storehouse.DropDownListView</item>
+  </style>-->
+
+  <style name="Theme.Storehouse.ActionButtonStyle" parent="@style/Widget.AppCompat.ActionButton">
+    <item name="android:background">@drawable/metro_abs_selectableitem_style</item>
+    <item name="background">@drawable/metro_abs_selectableitem_style</item>
+  </style>
+
+  <style name="Theme.Storehouse.AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowTitleStyle">@style/Theme.Storehouse.DialogWindowTitle</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+    <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+  </style>
+
+  <style name="Theme.Storehouse.DialogWindowTitle">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:maxLines">1</item>
+    <item name="android:scrollHorizontally">true</item>
+    <item name="android:textAppearance">@style/Theme.Storehouse.TextAppearance.DialogWindowTitle</item>
+  </style>
+
+  <style name="Theme.Storehouse.TextAppearance.DialogWindowTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+    <item name="android:textSize">22sp</item>
+    <item name="android:textColor">#ff000000</item>
+  </style>
+
+
+
+
+
+  <style name="Theme.Storehouse.SeekBar" parent="@*android:style/Widget.SeekBar">
+    <item name="android:paddingLeft">16.0dip</item>
+    <item name="android:paddingRight">16.0dip</item>
+    <item name="android:maxHeight">13.0dip</item>
+    <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+    <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+    <item name="android:minHeight">13.0dip</item>
+    <item name="android:thumb">@drawable/scrubber_control_selector_holo_light</item>
+    <item name="android:thumbOffset">16.0dip</item>
+  </style>
+  
+  <style name="Theme.Storehouse.ProgressBar" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+    <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal</item>
+    <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+  </style>
+
+
+
+
+
+  <!--<style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+
+
+
+  <style name="Theme.Storehouse" parent="Theme.Sherlock.Light.DarkActionBar">
+    <item name="android:typeface">monospace</item>
+    <item name="android:windowBackground">@color/storehouse_blue_light</item>
+    <item name="android:actionBarStyle">@style/Theme.Storehouse.ActionBar</item>
+    <item name="actionBarStyle">@style/Theme.Storehouse.ActionBar</item>
+    <item name="actionMenuTextColor">@android:color/white</item>
+    <item name="actionBarSize">@dimen/abs__action_bar_default_height</item>
+    <item name="android:actionBarSize">@dimen/abs__action_bar_default_height</item>
+    <item name="android:actionMenuTextColor">@android:color/white</item>
+    <item name="android:actionModeStyle">@style/Theme.Storehouse.ActionMode</item>
+    <item name="android:actionBarItemBackground">@drawable/metro_abs_selectableitem_style</item>
+    <item name="android:popupMenuStyle">@style/Theme.Storehouse.PopupMenu</item>
+    <item name="android:dropDownListViewStyle">@style/Theme.Storehouse.DropDownListView</item>
+    <item name="android:actionBarWidgetTheme">@style/Theme.Storehouse.ActionBarWidget</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionBar" parent="Widget.Sherlock.ActionBar">
+    <item name="background">@color/storehouse_red</item>
+    <item name="android:background">@color/storehouse_red</item>
+    <item name="height">@dimen/abs__action_bar_default_height</item>
+    <item name="android:height">@dimen/abs__action_bar_default_height</item>
+    <item name="titleTextStyle">@style/Theme.Storehouse.ActionBar.TitleTextStyle</item>
+    <item name="android:titleTextStyle">@style/Theme.Storehouse.ActionBar.TitleTextStyle</item>
+    <item name="subtitleTextStyle">@style/Theme.Storehouse.ActionBar.SubtitleTextStyle</item>
+    <item name="android:subtitleTextStyle">@style/Theme.Storehouse.ActionBar.SubtitleTextStyle</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionBar.TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/storehouse_blue_light</item>
+    <item name="android:textSize">@dimen/abs__action_bar_title_text_size</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionBar.SubtitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/storehouse_white</item>
+    <item name="android:textSize">@dimen/abs__action_bar_subtitle_text_size</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionMode" parent="Theme.Sherlock.Light">
+    <item name="android:actionModeBackground">@color/storehouse_red</item>
+  </style>
+
+  <style name="Theme.Storehouse.PopupMenu" parent="Widget.Sherlock.ListPopupWindow">
+    <item name="android:popupBackground">@color/storehouse_black</item>
+  </style>
+
+  <style name="Theme.Storehouse.DropDownListView" parent="Widget.Sherlock.ListView.DropDown">
+    <item name="android:listSelector">@drawable/metro_abs_selectablelistitem_style</item>
+  </style>
+
+  <style name="Theme.Storehouse.ActionBarWidget" parent="Theme.Sherlock">
+    <item name="android:popupMenuStyle">@style/Theme.Storehouse.PopupMenu</item>
+    <item name="android:dropDownListViewStyle">@style/Theme.Storehouse.DropDownListView</item>
+  </style>
+
+
+
+
+  <style name="Theme.Storehouse.AlertDialogStyle" parent="@android:style/Theme.Holo.Light.Dialog">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowTitleStyle">@style/Theme.Storehouse.DialogWindowTitle</item>
+    <item name="windowContentOverlay">@null</item>
+    <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+    <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+  </style>
+
+  <style name="Theme.Storehouse.DialogWindowTitle" parent="Widget">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:maxLines">1</item>
+    <item name="android:scrollHorizontally">true</item>
+    <item name="android:textAppearance">@style/Theme.Storehouse.TextAppearance.DialogWindowTitle</item>
+  </style>
+
+  <style name="Theme.Storehouse.TextAppearance.DialogWindowTitle" parent="Theme.Sherlock.Light">
+    <item name="android:textSize">22sp</item>
+    <item name="android:textColor">#ff000000</item>
+  </style>-->
+</resources>

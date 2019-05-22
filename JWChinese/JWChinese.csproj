@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2E0E0F1-631A-4333-8E9A-7E23664C790A}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JWChinese</RootNamespace>
+    <AssemblyName>JWChinese</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>
+    </AndroidUseLatestPlatformSdk>
+    <DevInstrumentationEnabled>True</DevInstrumentationEnabled>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <JavaOptions />
+    <MonoDroidExtraArgs />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExpansionDownloader, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\ExpansionDownloader.dll</HintPath>
+    </Reference>
+    <Reference Include="LicenseVerificationLibrary">
+      <HintPath>..\References\LicenseVerificationLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDialogs">
+      <HintPath>S:\Programming\Guy's Libraries\Xamarin.Android\MaterialDialogs\MaterialDialogs\bin\Debug\MaterialDialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="Mindscape.Raygun4Net.Xamarin.Android, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Mindscape.Raygun4Net.Xamarin.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Android.Export" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="mscorlib" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\References\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Parse.Android">
+      <HintPath>..\References\Parse.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression.Zip">
+      <HintPath>..\References\System.IO.Compression.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.21.0.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.InAppBilling, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\Xamarin.InAppBilling.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activities\DonationsActivity.cs" />
+    <Compile Include="Activities\AndroidDonationsActivity.cs" />
+    <Compile Include="Activities\LibraryDownloaderActivity.cs" />
+    <Compile Include="Activities\MainLibraryActivity.cs" />
+    <Compile Include="Activities\PreferenceActivity.cs" />
+    <Compile Include="Activities\SplashActivity.cs" />
+    <Compile Include="Adapters\ObservableAdapter.cs" />
+    <Compile Include="Adapters\ArticleButtonAdapter.cs" />
+    <Compile Include="Adapters\NavArrayAdapter.cs" />
+    <Compile Include="Adapters\LibraryGridButtonAdapter.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="Billing\InAppBillingHelper.cs" />
+    <Compile Include="Fragments\ArticleFragment.cs" />
+    <Compile Include="Fragments\LibraryFragment.cs" />
+    <Compile Include="Functions.cs" />
+    <Compile Include="Interfaces\IOnScrollChangedCallback.cs" />
+    <Compile Include="Interfaces\IObservableOnScrollChangedCallback.cs" />
+    <Compile Include="Objects.cs" />
+    <Compile Include="Adapters\PurchaseAdapter.cs" />
+    <Compile Include="Objects\KingJavaScriptInterface.cs" />
+    <Compile Include="Objects\StorehouseWebViewClient.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLite.cs" />
+    <Compile Include="SQLiteAsync.cs" />
+    <Compile Include="Views\AutoGridView.cs" />
+    <Compile Include="Views\AutoMeasureGridView.cs" />
+    <Compile Include="Views\DonateDialogPreference.cs" />
+    <Compile Include="Views\HeaderFooterGridView.cs" />
+    <Compile Include="Views\HeaderGridView.cs" />
+    <Compile Include="Views\LibraryGridView.cs" />
+    <Compile Include="Views\ObservableWebView.cs" />
+    <Compile Include="Views\ObservableHeaderWebView.cs" />
+    <Compile Include="Views\StorehouseSuperDialog.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\fonts\Roboto-Light.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-Regular.ttf" />
+    <AndroidAsset Include="Assets\fonts\WtClearTextMedium.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-Medium.ttf" />
+    <None Include="packages.config" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout-land\ArticleFragment.axml" />
+    <AndroidResource Include="Resources\layout\ProgressDialog.axml" />
+    <AndroidResource Include="Resources\layout\ArticleFragment.axml" />
+    <AndroidResource Include="Resources\layout\DialogMessage.axml" />
+    <AndroidResource Include="Resources\layout\DialogTitle.axml" />
+    <AndroidResource Include="Resources\layout\DrawerListItem.axml" />
+    <AndroidResource Include="Resources\layout\DrawerListItemRight.axml" />
+    <AndroidResource Include="Resources\layout\InsightLibraryFragment.axml" />
+    <AndroidResource Include="Resources\layout\LibraryBibleFragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\LibraryDownloaderActivity.axml" />
+    <AndroidResource Include="Resources\layout\LibraryFragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\LibraryGridHeader.axml" />
+    <AndroidResource Include="Resources\layout\LibraryGridItem.axml" />
+    <AndroidResource Include="Resources\layout\MainLibraryActivity.axml" />
+    <AndroidResource Include="Resources\layout\DialogWebView.axml" />
+    <AndroidResource Include="Resources\layout\DialogWebViewSuper.axml" />
+    <AndroidResource Include="Resources\layout\PreferenceActivity.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\FooterWebView.axml" />
+    <AndroidResource Include="Resources\layout\DonationsActivity.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\GEMDonationsActivity.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\DialogCheckBox.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\DialogUserSyncView.axml" />
+    <AndroidResource Include="Resources\layout\DialogChapterSelect.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\css\wol.css" />
+    <AndroidAsset Include="Assets\languages.xml">
+      <SubType>Designer</SubType>
+    </AndroidAsset>
+    <AndroidAsset Include="Assets\names.xml">
+      <SubType>Designer</SubType>
+    </AndroidAsset>
+    <AndroidAsset Include="Assets\js\init.js" />
+    <Content Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <AndroidResource Include="Resources\Anim\in_from_left.xml" />
+    <AndroidResource Include="Resources\Anim\out_to_right.xml" />
+    <AndroidResource Include="Resources\Anim\push_down_in.xml" />
+    <AndroidResource Include="Resources\Anim\push_down_in_no_alpha.xml" />
+    <AndroidResource Include="Resources\Anim\push_down_out.xml" />
+    <AndroidResource Include="Resources\Anim\push_down_out_no_alpha.xml" />
+    <AndroidResource Include="Resources\Anim\push_up_in.xml" />
+    <AndroidResource Include="Resources\Anim\push_up_out.xml" />
+    <AndroidResource Include="Resources\Color\metro_button_text_style.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\ic_drawer.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-land\Splash.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_drawer.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_drawer.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable\metro_btn_default.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\webview_border.xml" />
+    <AndroidResource Include="Resources\drawable\Splash.png" />
+    <AndroidResource Include="Resources\values\Arrays.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\values\Attrs.xml" />
+    <AndroidResource Include="Resources\values\Colors.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\values\Styles.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-mdpi\ic_drawer.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable\panel_background.png" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
+    <AndroidResource Include="Resources\values-sw500dp\dimens.xml" />
+    <AndroidResource Include="Resources\values-sw600dp\dimens.xml" />
+    <AndroidResource Include="Resources\values-sw800dp-land\dimens.xml" />
+    <AndroidResource Include="Resources\values-sw800dp-port\dimens.xml" />
+    <AndroidResource Include="Resources\values-large-land-mdpi-1024x600\dimens.xml" />
+    <AndroidResource Include="Resources\values-xlarge\dimens.xml" />
+    <AndroidResource Include="Resources\values-sw800dp\dimens.xml" />
+    <AndroidResource Include="Resources\values-large-mdpi-1024x600\dimens.xml" />
+    <AndroidResource Include="Resources\values-large-hdpi-1024x600\dimens.xml" />
+    <AndroidResource Include="Resources\values-land\dimens.xml" />
+    <AndroidResource Include="Resources\values-large-land-hdpi-1024x600\dimens.xml" />
+    <AndroidResource Include="Resources\values-sw500dp-land\dimens.xml" />
+    <AndroidResource Include="Resources\values-sw600dp-land\dimens.xml" />
+    <AndroidResource Include="Resources\values\integers.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\swap.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\swap.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\swap.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\swap.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pinyin.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\pinyin.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\pinyin.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\pinyin.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fontsize.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\fontsize.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\fontsize.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\fontsize.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\chapters.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\chapters.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\chapters.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\chapters.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\expand.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\expand.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\expand.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\expand.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\collapse.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\collapse.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\collapse.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\collapse.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\nav_bible.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\nav_bible.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\nav_bible.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\nav_bible.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\nav_insight.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\nav_insight.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\nav_insight.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\nav_insight.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\nav_publications.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\nav_publications.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\nav_publications.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\nav_publications.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\nav_dailytext.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\nav_dailytext.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\nav_dailytext.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\nav_dailytext.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_outline.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_outline.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_outline.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_outline.png" />
+    <AndroidResource Include="Resources\Menu\highlighting_menu.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\highligher.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\highligher.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\highligher.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\highligher.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\clear.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\clear.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\clear.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\clear.png" />
+    <AndroidResource Include="Resources\drawable\metro_abs_selectableitem_style.xml" />
+    <AndroidResource Include="Resources\drawable\metro_abs_selectablelistitem_style.xml" />
+    <AndroidResource Include="Resources\drawable\metro_button_style.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\custom_progressbar.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\scrubber_control_selector_holo_light.xml" />
+    <AndroidResource Include="Resources\drawable\scrubber_progress_horizontal_holo_light.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\scrubber_control_disabled_holo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scrubber_control_focused_holo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scrubber_control_pressed_holo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scrubber_primary_holo.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scrubber_secondary_holo.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scrubber_track_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\scrubber_control_disabled_holo.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\scrubber_control_focused_holo.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\scrubber_control_pressed_holo.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\scrubber_primary_holo.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\scrubber_secondary_holo.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\scrubber_track_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\scrubber_control_disabled_holo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\scrubber_control_focused_holo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\scrubber_control_pressed_holo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\scrubber_primary_holo.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\scrubber_secondary_holo.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\scrubber_track_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\scrubber_control_normal_holo.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\scrubber_control_normal_holo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\scrubber_control_normal_holo.png" />
+    <AndroidResource Include="Resources\drawable\progress_indeterminate_horizontal.xml" />
+    <AndroidResource Include="Resources\drawable\progress_horizontal.xml" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_bg_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_bg_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_bg_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_bg_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_secondary_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_secondary_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_secondary_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_secondary_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_primary_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_primary_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_primary_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_primary_holo_light.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progressbar_indeterminate_holo5.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progressbar_indeterminate_holo6.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progressbar_indeterminate_holo7.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progressbar_indeterminate_holo8.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progressbar_indeterminate_holo1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progressbar_indeterminate_holo2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progressbar_indeterminate_holo3.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progressbar_indeterminate_holo4.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progressbar_indeterminate_holo5.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progressbar_indeterminate_holo6.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progressbar_indeterminate_holo7.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progressbar_indeterminate_holo8.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progressbar_indeterminate_holo1.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progressbar_indeterminate_holo2.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progressbar_indeterminate_holo3.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progressbar_indeterminate_holo4.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progressbar_indeterminate_holo6.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progressbar_indeterminate_holo7.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progressbar_indeterminate_holo8.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progressbar_indeterminate_holo1.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progressbar_indeterminate_holo2.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progressbar_indeterminate_holo3.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progressbar_indeterminate_holo4.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progressbar_indeterminate_holo5.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progressbar_indeterminate_holo5.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progressbar_indeterminate_holo6.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progressbar_indeterminate_holo7.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progressbar_indeterminate_holo8.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progressbar_indeterminate_holo1.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progressbar_indeterminate_holo2.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progressbar_indeterminate_holo3.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progressbar_indeterminate_holo4.png" />
+    <AndroidResource Include="Resources\drawable\section_button_bg.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\menu_button_pushstate.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\menu_button_pushstate.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\menu_button_pushstate.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\dark_bg_divider_nospacing.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\dark_bg_divider_nospacing.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\dark_bg_divider_nospacing.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\bg_light.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\bg_blue.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\bg_blue.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\bg_light.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\bg_blue.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\bg_light.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\bg.png" />
+    <AndroidResource Include="Resources\drawable\app_background.xml" />
+    <AndroidResource Include="Resources\drawable\blue_bg.xml" />
+    <AndroidResource Include="Resources\drawable\actionbar_background.xml" />
+    <AndroidResource Include="Resources\drawable-xhdpi\top_bar_bg.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\top_bar_bg.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\top_bar_bg.png" />
+    <AndroidResource Include="Resources\drawable\app_background_light.xml" />
+    <AndroidResource Include="Resources\Color\metro_button_text_style_inverse.xml" />
+    <AndroidResource Include="Resources\drawable\metro_button_style_stroke.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\metro_style.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\metro_style_inverse.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\top_bar_bg_invert.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\top_bar_bg_invert.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\top_bar_bg_invert.png" />
+    <LinkDescription Include="ExternalLinkerDescriptions.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GEMDonationsLibrary\AndroidDonationsLibrary.csproj">
+      <Project>{65f57185-d126-4fe9-9d42-079d4067a7a0}</Project>
+      <Name>AndroidDonationsLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="..\Storehouse.Core\Storehouse.Core.projitems" Label="Shared" Condition="Exists('..\Storehouse.Core\Storehouse.Core.projitems')" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  
+  <string-array name="LibraryNavigation">
+    <item>Bible</item>
+    <item>Insight</item>
+    <item>Daily Text</item>
+    <item>Publications</item>
+    <!--<item>Brochures</item>
+    <item>Tracts</item>
+    <item>The Watchtower</item>
+    <item>Awake!</item>
+    <item>Yearbooks</item>-->
+  </string-array>
+
+  <string-array name="PublicationType">
+    <item>nwt</item>
+    <item>it</item>
+    <item>es</item>
+    <item>books</item>
+    <!--<item>brochures</item>
+    <item>tracts</item>
+    <item>watchtower</item>
+    <item>awake</item>
+    <item>yearbooks</item>-->
+  </string-array>
+
+</resources>

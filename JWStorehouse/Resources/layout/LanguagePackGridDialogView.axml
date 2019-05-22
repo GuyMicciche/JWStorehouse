@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="16dip"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/primaryLanguageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This will download language data from Watchtower ONLINE Library and store files in a local database. Primary Language should be your native language. Secondary Language should be your language group." />
+        <TextView
+            android:id="@+id/primaryLanguageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primary Language:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_marginTop="32dip" />
+        <Spinner
+            android:id="@+id/primaryLanguageSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dip"
+            android:paddingBottom="16dip"
+            android:paddingTop="16dip" />
+        <TextView
+            android:id="@+id/secondaryLanguageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Secondary Language:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_marginTop="16dip" />
+        <Spinner
+            android:id="@+id/secondaryLanguageSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dip"
+            android:paddingBottom="16dip"
+            android:paddingTop="16dip" />
+        <JWStorehouse.ExpandableHeightGridView
+            android:id="@+id/downloadOptionsGridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dip"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:gravity="center" />
+    </LinearLayout>
+</ScrollView>

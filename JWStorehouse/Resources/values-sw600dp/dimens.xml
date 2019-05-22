@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="abs__action_bar_default_height">56.0dip</dimen>
+  <dimen name="abs__action_bar_icon_vertical_padding">4.0dip</dimen>
+  <dimen name="abs__action_bar_subtitle_bottom_margin">9.0dip</dimen>
+  <dimen name="abs__action_bar_subtitle_text_size">14.0dip</dimen>
+  <dimen name="abs__action_bar_subtitle_top_margin">-3.0dip</dimen>
+  <dimen name="abs__action_bar_title_text_size">18.0dip</dimen>
+  <dimen name="abs__action_button_min_width">64.0dip</dimen>
+  
+  <dimen name="bible_nav_bible_book_grid_height">52.0dip</dimen>
+  <dimen name="bible_nav_bible_book_grid_width">92.0dip</dimen>
+  <dimen name="bible_nav_bible_book_scroll_view_padding">16.0dip</dimen>
+  <dimen name="bible_nav_bible_book_header_side_padding">0.0dip</dimen>
+
+  <dimen name="bible_nav_chapter_grid_height">68.0dip</dimen>
+  <dimen name="bible_nav_chapter_grid_width">68.0dip</dimen>
+  <dimen name="bible_nav_chapter_horizontal_padding">16.0dip</dimen>
+  <dimen name="bible_nav_chapter_vertical_padding">16.0dip</dimen>
+
+  <dimen name="nav_heading_text_size">22.0sp</dimen>
+
+  <dimen name="action_bar_icon_vertical_padding">4.0dip</dimen>
+</resources>

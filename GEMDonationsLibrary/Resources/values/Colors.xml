@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="storehouse_blue">#655e5e</color>
+  <color name="storehouse_blue_light">#f4eeee</color>
+  <color name="storehouse_blue_medium">#ccc8c8</color>
+  <color name="storehouse_blue_dark">#332f2f</color>
+
+  <color name="storehouse_red">#d3041f</color>
+  <color name="storehouse_king_purple">#9933CC</color>
+  
+  <drawable name="storehouse_blue">#655e5e</drawable>
+  <drawable name="storehouse_white">#ffffff</drawable>
+</resources>

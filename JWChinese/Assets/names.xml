@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<KingLibrary>
+  
+  <!--BIBLE-->
+  <book>
+    <english abbr="Ge" short="Gen.">Genesis</english>
+    <chinese abbr="创" short="创">创世记</chinese>
+    <pinyin abbr="Chuàng" short="Chuàng">Chuàngshìjì</pinyin>
+  </book>
+  <book>
+    <english abbr="Ex" short="Ex.">Exodus</english>
+    <chinese abbr="出" short="出">出埃及记</chinese>
+    <pinyin abbr="Chū" short="Chū">Chū’āijíjì</pinyin>
+  </book>
+  <book>
+    <english abbr="Le" short="Lev.">Leviticus</english>
+    <chinese abbr="利" short="利">利未记</chinese>
+    <pinyin abbr="Lì" short="Lì">Lìwèijì</pinyin>
+  </book>
+  <book>
+    <english abbr="Nu" short="Num.">Numbers</english>
+    <chinese abbr="民" short="民">民数记</chinese>
+    <pinyin abbr="Mín" short="Mín">Mínshùjì</pinyin>
+  </book>
+  <book>
+    <english abbr="De" short="Deut.">Deuteronomy</english>
+    <chinese abbr="申" short="申">申命记</chinese>
+    <pinyin abbr="Shēn" short="Shēn">Shēnmìngjì</pinyin>
+  </book>
+  <book>
+    <english abbr="Jos" short="Josh.">Joshua</english>
+    <chinese abbr="书" short="书">约书亚记</chinese>
+    <pinyin abbr="Shū" short="Shū">Yuēshūyàjì</pinyin>
+  </book>
+  <book>
+    <english abbr="Jg" short="Judg.">Judges</english>
+    <chinese abbr="士" short="士">士师记</chinese>
+    <pinyin abbr="Shì" short="Shì">Shìshījì</pinyin>
+  </book>
+  <book>
+    <english abbr="Ru" short="Ruth">Ruth</english>
+    <chinese abbr="得" short="得">路得记</chinese>
+    <pinyin abbr="Dé" short="Dé">Lùdéjì</pinyin>
+  </book>
+  <book>
+    <english abbr="1Sa" short="1 Sam.">1 Samuel</english>
+    <chinese abbr="撒上" short="撒上">撒母耳记上</chinese>
+    <pinyin abbr="Sāshàng" short="Sāshàng">Sāmǔ’ěrjì Shàng</pinyin>
+  </book>
+  <book>
+    <english abbr="2Sa" short="2 Sam.">2 Samuel</english>
+    <chinese abbr="撒下" short="撒下">撒母耳记下</chinese>
+    <pinyin abbr="Sāxià" short="Sāxià">Sāmǔ’ěrjì Xià</pinyin>
+  </book>
+  <book>
+    <english abbr="1Ki" short="1 Ki.">1 Kings</english>
+    <chinese abbr="王上" short="王上">列王纪上</chinese>
+    <pinyin abbr="Wángshàng" short="Wángshàng">Lièwángjì Shàng</pinyin>
+  </book>
+  <book>
+    <english abbr="2Ki" short="2 Ki.">2 Kings</english>
+    <chinese abbr="王下" short="王下">列王纪下</chinese>
+    <pinyin abbr="Wángxià" short="Wángxià">Lièwángjì Xià</pinyin>
+  </book>
+  <book>
+    <english abbr="1Ch" short="1 Chron.">1 Chronicles</english>
+    <chinese abbr="代上" short="代上">历代志上</chinese>
+    <pinyin abbr="Dàishàng" short="Dàishàng">Lìdàizhì Shàng</pinyin>
+  </book>
+  <book>
+    <english abbr="2Ch" short="2 Chron.">2 Chronicles</english>
+    <chinese abbr="代下" short="代下">历代志下</chinese>
+    <pinyin abbr="Dàixià" short="Dàixià">Lìdàizhì Xià</pinyin>
+  </book>
+  <book>
+    <english abbr="Ezr" short="Ezra">Ezra</english>
+    <chinese abbr="拉" short="拉">以斯拉记</chinese>
+    <pinyin abbr="Sī" short="Sī">Yǐsīlājì</pinyin>
+  </book>
+  <book>
+    <english abbr="Ne" short="Neh.">Nehemiah</english>
+    <chinese abbr="尼" short="尼">尼希米记</chinese>
+    <pinyin abbr="Ní" short="Ní">Níxīmǐjì</pinyin>
+  </book>
+  <book>
+    <english abbr="Es" short="Esther">Esther</english>
+    <chinese abbr="斯" short="斯">以斯帖记</chinese>
+    <pinyin abbr="Sī" short="Sī">Yǐsītiējì</pinyin>
+  </book>
+  <book>
+    <english abbr="Job" short="Job">Job</english>
+    <chinese abbr="伯" short="伯">约伯记</chinese>
+    <pinyin abbr="Bó" short="Bó">Yuēbójì</pinyin>
+  </book>
+  <book>
+    <english abbr="Ps" short="Ps.">Psalms</english>
+    <chinese abbr="诗" short="诗">诗篇</chinese>
+    <pinyin abbr="Shī" short="Shī">Shīpiān</pinyin>
+  </book>
+  <book>
+    <english abbr="Pr" short="Prov.">Proverbs</english>
+    <chinese abbr="箴" short="箴">箴言</chinese>
+    <pinyin abbr="Zhēn" short="Zhēn">Zhēnyán</pinyin>
+  </book>
+  <book>
+    <english abbr="Ec" short="Eccl.">Ecclesiastes</english>
+    <chinese abbr="传" short="传">传道书</chinese>
+    <pinyin abbr="Chuán" short="Chuán">Chuándàoshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Ca" short="Song of Sol.">Song of Solomon</english>
+    <chinese abbr="歌" short="歌">雅歌</chinese>
+    <pinyin abbr="Gē" short="Gē">Yǎgē</pinyin>
+  </book>
+  <book>
+    <english abbr="Isa" short="Isa.">Isaiah</english>
+    <chinese abbr="赛" short="赛">以赛亚书</chinese>
+    <pinyin abbr="Sài" short="Sài">Yǐsàiyàshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Jer" short="Jer.">Jeremiah</english>
+    <chinese abbr="耶" short="耶">耶利米书</chinese>
+    <pinyin abbr="Yē" short="Yē">Yēlìmǐshū</pinyin>
+  </book>
+  <book>
+    <english abbr="La" short="Lam.">Lamentations</english>
+    <chinese abbr="哀" short="哀">耶利米哀歌</chinese>
+    <pinyin abbr="Āi" short="Āi">Yēlìmǐ Āigē</pinyin>
+  </book>
+  <book>
+    <english abbr="Eze" short="Ezek.">Ezekiel</english>
+    <chinese abbr="结" short="结">以西结书</chinese>
+    <pinyin abbr="Xī" short="Xī">Yǐxījiéshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Da" short="Dan.">Daniel</english>
+    <chinese abbr="但" short="但">但以理书</chinese>
+    <pinyin abbr="Dàn" short="Dàn">Dànyǐlǐshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Ho" short="Hos.">Hosea</english>
+    <chinese abbr="何" short="何">何西阿书</chinese>
+    <pinyin abbr="Hé" short="Hé">Héxī’āshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Joe" short="Joel">Joel</english>
+    <chinese abbr="珥" short="珥">约珥书</chinese>
+    <pinyin abbr="Ěr" short="Ěr">Yuē’ěrshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Am" short="Amos">Amos</english>
+    <chinese abbr="摩" short="摩">阿摩司书</chinese>
+    <pinyin abbr="Mó" short="Mó">Āmósīshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Ob" short="Obad.">Obadiah</english>
+    <chinese abbr="俄" short="俄">俄巴底亚书</chinese>
+    <pinyin abbr="É" short="É">Ébādǐyàshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Jon" short="Jonah">Jonah</english>
+    <chinese abbr="拿" short="拿">约拿书</chinese>
+    <pinyin abbr="Ná" short="Ná">Yuēnáshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Mic" short="Mic.">Micah</english>
+    <chinese abbr="弥" short="弥">弥迦书</chinese>
+    <pinyin abbr="Mí" short="Mí">Míjiāshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Na" short="Nah.">Nahum</english>
+    <chinese abbr="鸿" short="鸿">那鸿书</chinese>
+    <pinyin abbr="Hóng" short="Hóng">Nāhóngshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Hab" short="Hab.">Habakkuk</english>
+    <chinese abbr="哈" short="哈">哈巴谷书</chinese>
+    <pinyin abbr="Hā" short="Hā">Hābāgǔshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Zep" short="Zeph.">Zephaniah</english>
+    <chinese abbr="番" short="番">西番雅书</chinese>
+    <pinyin abbr="Fān" short="Fān">Xīfānyǎshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Hag" short="Hag.">Haggai</english>
+    <chinese abbr="该" short="该">哈该书</chinese>
+    <pinyin abbr="Gāi" short="Gāi">Hāgāishū</pinyin>
+  </book>
+  <book>
+    <english abbr="Zec" short="Zech.">Zechariah</english>
+    <chinese abbr="亚" short="亚">撒迦利亚书</chinese>
+    <pinyin abbr="Yà" short="Yà">Sājiālìyàshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Mal" short="Mal.">Malachi</english>
+    <chinese abbr="玛" short="玛">玛拉基书</chinese>
+    <pinyin abbr="Lā" short="Lā">Mǎlājīshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Mt" short="Matt.">Matthew</english>
+    <chinese abbr="太" short="太">马太福音</chinese>
+    <pinyin abbr="Tài" short="Tài">Mǎtài Fúyīn</pinyin>
+  </book>
+  <book>
+    <english abbr="Mr" short="Mark">Mark</english>
+    <chinese abbr="可" short="可">马可福音</chinese>
+    <pinyin abbr="Kě" short="Kě">Mǎkě Fúyīn</pinyin>
+  </book>
+  <book>
+    <english abbr="Lu" short="Luke">Luke</english>
+    <chinese abbr="路" short="路">路加福音</chinese>
+    <pinyin abbr="Lù" short="Lù">Lùjiā Fúyīn</pinyin>
+  </book>
+  <book>
+    <english abbr="Joh" short="John">John</english>
+    <chinese abbr="约" short="约">约翰福音</chinese>
+    <pinyin abbr="Yuē" short="Yuē">Yuēhàn Fúyīn</pinyin>
+  </book>
+  <book>
+    <english abbr="Ac" short="Acts">Acts</english>
+    <chinese abbr="徒" short="徒">使徒行传</chinese>
+    <pinyin abbr="Tú" short="Tú">Shǐtú Xíngzhuàn</pinyin>
+  </book>
+  <book>
+    <english abbr="Ro" short="Rom.">Romans</english>
+    <chinese abbr="罗" short="罗">罗马书</chinese>
+    <pinyin abbr="Luó" short="Luó">Luómǎshū</pinyin>
+  </book>
+  <book>
+    <english abbr="1Co" short="1 Cor.">1 Corinthians</english>
+    <chinese abbr="林前" short="林前">哥林多前书</chinese>
+    <pinyin abbr="Línqián" short="Línqián">Gēlínduō Qiánshū</pinyin>
+  </book>
+  <book>
+    <english abbr="2Co" short="2 Cor.">2 Corinthians</english>
+    <chinese abbr="林后" short="林后">哥林多后书</chinese>
+    <pinyin abbr="Línhòu" short="Línhòu">Gēlínduō Hòushū</pinyin>
+  </book>
+  <book>
+    <english abbr="Ga" short="Gal.">Galatians</english>
+    <chinese abbr="加" short="加">加拉太书</chinese>
+    <pinyin abbr="Jiā" short="Jiā">Jiālātàishū</pinyin>
+  </book>
+  <book>
+    <english abbr="Eph" short="Eph.">Ephesians</english>
+    <chinese abbr="弗" short="弗">以弗所书</chinese>
+    <pinyin abbr="Fú" short="Fú">Yǐfúsuǒshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Php" short="Phil.">Philippians</english>
+    <chinese abbr="腓" short="腓">腓立比书</chinese>
+    <pinyin abbr="Féi" short="Féi">Féilìbǐshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Col" short="Col.">Colossians</english>
+    <chinese abbr="西" short="西">歌罗西书</chinese>
+    <pinyin abbr="Xī" short="Xī">Gēluóxīshū</pinyin>
+  </book>
+  <book>
+    <english abbr="1Th" short="1 Thess.">1 Thessalonians</english>
+    <chinese abbr="帖前" short="帖前">帖撒罗尼迦前书</chinese>
+    <pinyin abbr="Tiēqián" short="Tiēqián">Tiēsāluóníjiā Qiánshū</pinyin>
+  </book>
+  <book>
+    <english abbr="2Th" short="2 Thess.">2 Thessalonians</english>
+    <chinese abbr="帖后" short="帖后">帖撒罗尼迦后书</chinese>
+    <pinyin abbr="Tiēhòu" short="Tiēhòu">Tiēsāluóníjiā Hòushū</pinyin>
+  </book>
+  <book>
+    <english abbr="1Ti" short="1 Tim.">1 Timothy</english>
+    <chinese abbr="提前" short="提前">提摩太前书</chinese>
+    <pinyin abbr="Tíqián" short="Tíqián">Tímótài Qiánshū</pinyin>
+  </book>
+  <book>
+    <english abbr="2Ti" short="2 Tim.">2 Timothy</english>
+    <chinese abbr="提后" short="提后">提摩太后书</chinese>
+    <pinyin abbr="Tíhòu" short="Tíhòu">Tímótài Hòushū</pinyin>
+  </book>
+  <book>
+    <english abbr="Tit" short="Titus">Titus</english>
+    <chinese abbr="多" short="多">提多书</chinese>
+    <pinyin abbr="Duō" short="Duō">Tíduōshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Phm" short="Philem.">Philemon</english>
+    <chinese abbr="门" short="门">腓利门书</chinese>
+    <pinyin abbr="Mén" short="Mén">Féilìménshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Heb" short="Heb.">Hebrews</english>
+    <chinese abbr="来" short="来">希伯来书</chinese>
+    <pinyin abbr="Lái" short="Lái">Xībóláishū</pinyin>
+  </book>
+  <book>
+    <english abbr="Jas" short="Jas.">James</english>
+    <chinese abbr="雅" short="雅">雅各书</chinese>
+    <pinyin abbr="Yǎ" short="Yǎ">Yǎgèshū</pinyin>
+  </book>
+  <book>
+    <english abbr="1Pe" short="1 Pet.">1 Peter</english>
+    <chinese abbr="彼前" short="彼前">彼得前书</chinese>
+    <pinyin abbr="Bǐqián" short="Bǐqián">Bǐdé Qiánshū</pinyin>
+  </book>
+  <book>
+    <english abbr="2Pe" short="2 Pet.">2 Peter</english>
+    <chinese abbr="彼后" short="彼后">彼得后书</chinese>
+    <pinyin abbr="Bǐhòu" short="Bǐhòu">Bǐdé Hòushū</pinyin>
+  </book>
+  <book>
+    <english abbr="1Jo" short="1 John">1 John</english>
+    <chinese abbr="约一" short="约一">约翰一书</chinese>
+    <pinyin abbr="Yuēyì" short="Yuēyì">Yuēhàn Yìshū</pinyin>
+  </book>
+  <book>
+    <english abbr="2Jo" short="2 John">2 John</english>
+    <chinese abbr="约二" short="约二">约翰二书</chinese>
+    <pinyin abbr="Yuē’è" short="Yuē’è">Yuēhàn Èrshū</pinyin>
+  </book>
+  <book>
+    <english abbr="3Jo" short="3 John">3 John</english>
+    <chinese abbr="约三" short="约三">约翰三书</chinese>
+    <pinyin abbr="Yuēsān" short="Yuēsān">Yuēhàn Sānshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Jude" short="Jude">Jude</english>
+    <chinese abbr="犹" short="犹">犹大书</chinese>
+    <pinyin abbr="Yóu" short="Yóu">Yóudàshū</pinyin>
+  </book>
+  <book>
+    <english abbr="Re" short="Rev.">Revelation</english>
+    <chinese abbr="启" short="启">启示录</chinese>
+    <pinyin abbr="Qǐ" short="Qǐ">Qǐshìlù</pinyin>
+  </book>
+
+  <!--INSIGHT-->
+  <pub code="it" number="0" img="insight">
+    <english abbr="it" short="Insight">Insight on the Scriptures</english>
+	  <chinese abbr="it" short="洞悉">《洞悉圣经》</chinese>
+	  <pinyin abbr="it" short="Dòngxī">Dòngxī Shèngjīng</pinyin>
+  </pub>
+  
+  <!--DAILY TEXT-->
+  <pub code="es" number="2015" img="dailytext">
+	  <english abbr="es" short="Examining the Scriptures—2015">Examining the Scriptures Daily—2015</english>
+	  <chinese abbr="es" short="考查圣经2015年">天天考查圣经——2015</chinese>
+	  <pinyin abbr="es" short="Kǎochá Shèngjīng 2015 Nián">Tiāntiān Kǎochá Shèngjīng——2015</pinyin>
+  </pub>
+
+  <!--PUBLICATIONS-->
+  <pub code="bt" number="2" img="bearingwitness">
+    <english abbr="bt" short="Bearing Witness">“Bearing Thorough Witness” About God’s Kingdom</english>
+    <chinese abbr="bt" short="作见证">《为上帝的王国彻底作见证》</chinese>
+    <pinyin abbr="bt" short="Zuò Jiànzhèng">Wéi Shàngdì De Wángguó Chèdǐ Zuò Jiànzhèng</pinyin>
+  </pub>
+  <pub code="my" number="3" img="biblestories">
+    <english abbr="my" short="Bible Stories">My Book of Bible Stories</english>
+    <chinese abbr="my" short="圣经故事">《我的圣经故事书》</chinese>
+    <pinyin abbr="my" short="Shèngjīng Gùshì">Wǒ De Shèngjīng Gùshì Shū</pinyin>
+  </pub>
+  <pub code="bh" number="4" img="bibleteach">
+    <english abbr="bh" short="Bible Teach">What Does the Bible Really Teach?</english>
+    <chinese abbr="bh" short="圣经真理">《辨明圣经的真理》</chinese>
+    <pinyin abbr="bh" short="Shèngjīng Zhēnlǐ">Biànmíng Shèngjīng De Zhēnlǐ</pinyin>
+  </pub>
+  <pub code="cl" number="5" img="closetojehovah">
+    <english abbr="cl" short="Close to Jehovah">Draw Close to Jehovah</english>
+    <chinese abbr="cl" short="亲近">《亲近耶和华》</chinese>
+    <pinyin abbr="cl" short="Qīnjìn">Qīnjìn Yēhéhuá</pinyin>
+  </pub>
+  <pub code="lv" number="6" img="godslove">
+    <english abbr="lv" short="“God’s Love”">“Keep Yourselves in God’s Love”</english>
+    <chinese abbr="lv" short="上帝的爱">《常在上帝的爱里》</chinese>
+    <pinyin abbr="lv" short="Shàngdì De Ài">Cháng Zài Shàngdì De Ài Li</pinyin>
+  </pub>
+  <pub code="ip-1" number="7" img="isaiah1">
+    <english abbr="ip-1" short="Isaiah’s Prophecy I">Isaiah’s Prophecy—Light for All Mankind I</english>
+    <chinese abbr="ip-1" short="以赛亚的预言上">《以赛亚的预言光照全人类》（上册）</chinese>
+    <pinyin abbr="ip-1" short="Yǐsàiyà De Yùyán Shàng">Yǐsàiyà De Yùyán Guāngzhào Quánrénlèi (Shàngcè)</pinyin>
+  </pub>
+  <pub code="ip-2" number="8" img="isaiah2">
+    <english abbr="ip-2" short="Isaiah’s Prophecy II">saiah’s Prophecy—Light for All Mankind II</english>
+    <chinese abbr="ip-2" short="以赛亚的预言下">《以赛亚的预言光照全人类》（下册）</chinese>
+    <pinyin abbr="ip-2" short="Yǐsàiyà De Yùyán Xià">Yǐsàiyà De Yùyán Guāngzhào Quánrénlèi (Xiàcè)</pinyin>
+  </pub>
+  <pub code="jd" number="9" img="jehovahsday">
+    <english abbr="jd" short="Jehovah’s Day">Live With Jehovah’s Day in Mind</english>
+    <chinese abbr="jd" short="耶和华的日子">《紧记耶和华的日子，过敬虔的生活》</chinese>
+    <pinyin abbr="jd" short="Yēhéhuá De Rìzi">Jǐnjì Yēhéhuá De Rìzi，Guò Jìngqián De Shēnghuó</pinyin>
+  </pub>
+  <pub code="jr" number="10" img="jeremiah">
+    <english abbr="jr" short="Jeremiah">God’s Word for Us Through Jeremiah</english>
+    <chinese abbr="jr" short="耶利米">《上帝通过耶利米给我们的话》</chinese>
+    <pinyin abbr="jr" short="Yēlìmǐ">Shàngdì Tōngguò Yēlìmǐ Gěi Wǒmen De Huà</pinyin>
+  </pub>
+  <pub code="be" number="11" img="ministryschool">
+    <english abbr="be" short="Ministry School">Benefit From Theocratic Ministry School Education</english>
+    <chinese abbr="be" short="传道训练班课本">《神圣教育使你得益——传道训练班课本》</chinese>
+    <pinyin abbr="be" short="Chuándào Xùnliànbān Kèběn">Shénshèng Jiàoyù Shǐ Nǐ Déyì——Chuándào Xùnliànbān Kèběn</pinyin>
+  </pub>
+  <pub code="rs" number="12" img="reasoning">
+    <english abbr="rs" short="Reasoning">Reasoning From the Scriptures</english>
+    <chinese abbr="rs" short="推理">《根据圣经而推理》</chinese>
+    <pinyin abbr="rs" short="Tuīlǐ">Sēnjù Shèngjīng Ér Tuīlǐ</pinyin>
+  </pub>
+  <pub code="sn" number="13" img="singtojehovah">
+    <english abbr="sn" short="Sing to Jehovah">Sing to Jehovah</english>
+    <chinese abbr="sn" short="歌颂">《歌颂耶和华》</chinese>
+    <pinyin abbr="sn" short="Gēsòng">Gēsòng Yēhéhuá</pinyin>
+  </pub>
+  <pub code="lr" number="14" img="teacher">
+    <english abbr="lr" short="Teacher">Learn From the Great Teacher</english>
+    <chinese abbr="lr" short="导师">《向伟大的导师学习》</chinese>
+    <pinyin abbr="lr" short="Dǎoshī">Xiàng Wěidà De Dǎoshī Xuéxí</pinyin>
+  </pub>
+  <pub code="wt" number="15" img="worshipgod">
+    <english abbr="wt" short="Worship God">Worship the Only True God</english>
+    <chinese abbr="wt" short="崇拜">《崇拜独一的真神》</chinese>
+    <pinyin abbr="wt" short="Chóngbài">Chóngbài Dúyī De Zhēnshén</pinyin>
+  </pub>
+  <pub code="yp1" number="16" img="youngpeople1">
+    <english abbr="yp1" short="Young People Ask, Volume 1">Questions Young People Ask—Answers That Work, Volume 1</english>
+    <chinese abbr="yp1" short="青年人问，第1册">《青年人所提出的问题——有实效的答案》，第1册</chinese>
+    <pinyin abbr="yp1" short="Qīngniánrén Wèn， Dì 1 Cè">Qīngniánrén Suǒ Tíchū De Wèntí—Yǒu Shíxiào De Dá'àn， Dì 1 Cè</pinyin>
+  </pub>
+  <pub code="yp2" number="17" img="youngpeople2">
+    <english abbr="yp2" short="Young People Ask, Volume 2">Questions Young People Ask—Answers That Work, Volume 2</english>
+    <chinese abbr="yp2" short="青年人问，第2册">《青年人所提出的问题——有实效的答案》，第2册</chinese>
+    <pinyin abbr="yp2" short="Qīngniánrén Wèn， Dì 2 Cè">Qīngniánrén Suǒ Tíchū De Wèntí—Yǒu Shíxiào De Dá'àn， Dì 2 Cè</pinyin>
+  </pub>
+  <pub code="cf" number="18" img="myfollower">
+    <english abbr="cf" short="“My Follower”">“Come Be My Follower”</english>
+    <chinese abbr="cf" short="跟随">《来跟随我吧》</chinese>
+    <pinyin abbr="cf" short="Gēnsuí">Lái Gēnsuí Wǒ Ba</pinyin>
+  </pub>
+  <!--<pub code="kl" number="19" img="knowledge">
+    <english abbr="kl" short="Knowledge"></english>
+    <chinese abbr="kl" short="知识"></chinese>
+    <pinyin abbr="kl" short="Zhīshi"></pinyin>
+  </pub>
+  <pub code="re" number="20" img="revelation">
+    <english abbr="re" short="Revelation"></english>
+    <chinese abbr="re" short="启示录高潮"></chinese>
+    <pinyin abbr="re" short="Qǐshìlù Gāocháo"></pinyin>
+  </pub>-->
+  <pub code="ia" number="21" img="imitate">
+    <english abbr="ia" short="Imitate">Imitate Their Faith</english>
+    <chinese abbr="ia" short="榜样">《信心的榜样》</chinese>
+    <pinyin abbr="ia" short="Bǎngyàng">Xìnxīn De Bǎngyàng</pinyin>
+  </pub>
+
+  <!--BROCHURES-->
+  <pub code="jl" number="22" img="jehovahswill">
+    <english abbr="jl" short="Jehovah’s Will">Who Are Doing Jehovah’s Will Today?</english>
+    <chinese abbr="jl" short="耶和华的旨意">《谁在遵行耶和华的旨意》</chinese>
+    <pinyin abbr="jl" short="Yēhéhuá De Zhǐyì">Shéi Zài Zūnxíng Yēhéhuá De Zhǐyì</pinyin>
+  </pub>
+  <pub code="fg" number="23" img="goodnews">
+    <english abbr="fg" short="Good News">Good News From God!</english>
+    <chinese abbr="fg" short="好消息">《来自上帝的好消息》</chinese>
+    <pinyin abbr="fg" short="Hǎo Xiāoxī">Láizì Shàngdì De Hǎo Xiāoxī</pinyin>
+  </pub>
+  <pub code="rsg14" number="24" img="researchguide">
+    <english abbr="rsg14" short="Research Guide">Research Guide for Jehovah’s Witnesses</english>
+    <chinese abbr="rsg14" short="检索手册">《耶和华见证人出版物检索手册》</chinese>
+    <pinyin abbr="rsg14" short="Jiǎnsuǒ Shǒucè">Yēhéhuá Jiànzhèngrén Chūbǎnwù Jiǎnsuǒ Shǒucè</pinyin>
+  </pub>  
+  <pub code="igw" number="25" img="introgodsword">
+    <english abbr="igw" short="An Introduction to God's Word">An Introduction to God's Word</english>
+    <chinese abbr="igw" short="圣经入门">《圣经入门》</chinese>
+    <pinyin abbr="igw" short="Shèngjīng Rùmén">Shèngjīng Rùmén</pinyin>
+  </pub>
+  <pub code="sgd" number="26" img="biblereference">
+    <english abbr="sgd" short="Bible Reference Guide">Bible Reference Guide</english>
+    <chinese abbr="sgd" short="圣经参考手册">《圣经参考手册》</chinese>
+    <pinyin abbr="sgd" short="Shèngjīng Cānkǎo Shǒucè">Shèngjīng Cānkǎo Shǒucè</pinyin>
+  </pub>  
+  <pub code="bm" number="27" img="biblesmessage">
+      <english abbr="bm" short="Bible’s Message">The Bible—What Is Its Message?</english>
+    <chinese abbr="bm" short="检索手">《浅谈圣经——圣经的信息是什么？》</chinese>
+    <pinyin abbr="bm" short="Jiǎnsuǒ Shǒu">“Qiǎn Tán Shèngjīng——Shèngjīng De Xìnxī Shì Shénme?”</pinyin>
+  </pub>
+  <pub code="hf" number="28" img="happyfamily">
+    <english abbr="hf" short="Happy Family">Your Family Can Be Happy</english>
+    <chinese abbr="hf" short="家庭幸福">《怎样促进家庭幸福》</chinese>
+    <pinyin abbr="hf" short="Jiātíng Xìngfú">Zěnyàng Cùjìn Jiātíng Xìngfú</pinyin>
+  </pub>
+  <!--<pub code="hl" number="29" img="happylife">
+      <english abbr="hl" short="Happy Life">How Can You Have a Happy Life?</english>
+    <chinese abbr="hl" short=""></chinese>
+    <pinyin abbr="hl" short=""></pinyin>
+  </pub>-->
+  <pub code="ll" number="30" img="listenandlive">
+    <english abbr="ll" short="Listen and Live">Listen to God and Live Forever</english>
+    <chinese abbr="ll" short="听从（详尽版）">《听从上帝得永生》</chinese>
+    <pinyin abbr="ll" short="Tīngcóng (Xiángjìn Bǎn)">Tīngcóng Shàngdì Dé Yǒngshēng</pinyin>
+  </pub>
+  <pub code="ld" number="31" img="listentogod">
+    <english abbr="ld" short="Listen to God">Listen to God</english>
+    <chinese abbr="ld" short="听从（简易版）">《要听从上帝》</chinese>
+    <pinyin abbr="ld" short="Tīngcóng (Jiǎnyì Bǎn)">Yào Tīngcóng Shàngdì</pinyin>
+  </pub>
+  <pub code="mb" number="32" img="mybiblelessons">
+    <english abbr="mb" short="My Bible Lessons">My Bible Lessons</english>
+    <chinese abbr="mb" short="宝宝学圣经">《宝宝学圣经》</chinese>
+    <pinyin abbr="mb" short="Bǎobǎo Xué Shèngjīng">Bǎobǎo Xué Shèngjīng</pinyin>
+  </pub>
+  <pub code="lf" number="33" img="originoflife">
+    <english abbr="lf" short="Origin of Life">The Origin of Life—Five Questions Worth Asking</english>
+    <chinese abbr="lf" short="生命的起源">《生命的起源——值得思考的五个问题》</chinese>
+    <pinyin abbr="lf" short="Shēngmìng de Qǐyuán">Shēngmìng De Qǐyuán——Zhídé Sīkǎo De Wǔ Gè Wèntí”</pinyin>
+  </pub>
+  <pub code="yc" number="34" img="teachyourchildren">
+    <english abbr="yc" short="Teach Your Children">Teach Your Children</english>
+    <chinese abbr="yc" short="圣经小故事">《圣经小故事》</chinese>
+    <pinyin abbr="yc" short="Shèngjīng Xiǎo Gùshì">Shèngjīng Xiǎo Gùshì</pinyin>
+  </pub>
+  <pub code="lc" number="35" img="waslifecreated">
+    <english abbr="lc" short="Was Life Created?">Was Life Created?</english>
+    <chinese abbr="lc" short="生命来自创造吗？">《生命来自创造吗？》</chinese>
+    <pinyin abbr="lc" short="Shēngmìng Láizì Chuàngzào Ma?">Shēngmìng Láizì Chuàngzào Ma?</pinyin>
+  </pub>
+
+  <!--TRACTS-->
+  <pub code="kt" number="36" img="knowthetruth">
+    <english abbr="kt" short="Know the Truth">Would You Like to Know the Truth?</english>
+    <chinese abbr="kt" short="真理传单">你想找到真理吗？</chinese>
+    <pinyin abbr="kt" short="Zhēnlǐ Chuándān">Nǐ Xiǎng Zhǎodào Zhēnlǐ Ma?</pinyin>
+  </pub>  
+  <pub code="t-30" number="37" img="viewthebible">
+    <english abbr="t-30" short="View the Bible">How Do You View the Bible?</english>
+    <chinese abbr="t-30" short="圣经看法">你对圣经有什么看法？</chinese>
+    <pinyin abbr="t-30" short="Shèngjīng Kànfǎ">Nǐ Duì Shèngjīng Yǒu Shénme Kànfǎ?</pinyin>
+  </pub>
+  <pub code="t-31" number="38" img="viewthefuture">
+    <english abbr="t-31" short="View the Future">How Do You View the Future?</english>
+    <chinese abbr="t-31" short="未来">你觉得未来会怎样？</chinese>
+    <pinyin abbr="t-31" short="Wèilái">Nǐ Juédé Wèilái Huì Zěnyàng?</pinyin>
+  </pub>
+  <pub code="t-32" number="39" img="happyfamilylife">
+    <english abbr="t-32" short="Happy Family Life">What Is the Key to Happy Family Life?</english>
+    <chinese abbr="t-32" short="家庭幸福">家庭幸福主要靠什么？</chinese>
+    <pinyin abbr="t-32" short="Jiātíng Xìngfú">Jiātíng Xìngfú Zhǔyào Kào Shénme?</pinyin>
+  </pub>
+  <pub code="t-33" number="40" img="whocontrolstheworld">
+    <english abbr="t-33" short="Who Controls the World?">Who Really Controls the World?</english>
+    <chinese abbr="t-33" short="控制世界">控制世界的其实是谁？</chinese>
+    <pinyin abbr="t-33" short="Kòngzhì Shìjiè">Kòngzhì Shìjiè De Qíshí Shì Shéi?</pinyin>
+  </pub>
+  <pub code="t-34" number="41" img="sufferingend">
+    <english abbr="t-34" short="Suffering to End">All Suffering Soon to End!</english>
+    <chinese abbr="t-34" short="苦尽甘来传单">苦尽甘来，指日可待</chinese>
+    <pinyin abbr="t-34" short="Kǔjìngānlái Chuándān">Kǔjìngānlái, Zhǐrìkědài</pinyin>
+  </pub>
+  <pub code="t-35" number="42" img="knowthetruth">
+    <english abbr="t-35" short="Live Again">Can the Dead Really Live Again?</english>
+    <chinese abbr="t-35" short="复生">人死了真的能复生吗？</chinese>
+    <pinyin abbr="t-35" short="Fùshēng">Rén Sǐle Zhēnde Néng Fùshēng Ma?</pinyin>
+  </pub>  
+  <pub code="t-36" number="43" img="kingdom">
+    <english abbr="t-36" short="Kingdom">What Is the Kingdom of God?</english>
+    <chinese abbr="t-36" short="王国">上帝的王国是什么？</chinese>
+    <pinyin abbr="t-36" short="Wángguó">Shàngdì De Wángguó Shì Shénme?</pinyin>
+  </pub>
+  <pub code="t-37" number="44" img="websitetract">
+    <english abbr="t-37" short="Web site tract">Where Can We Find Answers to Life’s Big Questions?</english>
+    <chinese abbr="t-37" short="网站传单">人生种种疑问，答案在哪里？</chinese>
+    <pinyin abbr="t-37" short="Wǎngzhàn Chuándān">Rénshēng Zhǒngzhǒng Yíwèn, Dá'àn Zài Nǎlǐ?</pinyin>
+  </pub>
+  
+</KingLibrary>

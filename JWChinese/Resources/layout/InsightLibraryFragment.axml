@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dip">
+        <TextView
+            android:textSize="18sp"
+            android:textColor="#ff666666"
+            android:id="@+id/primaryLibraryTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginTop="12dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginBottom="12dip"
+            style="?android:attr/listSeparatorTextViewStyle" />
+        <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/insightPrimaryGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:columnWidth="100dip"
+            android:numColumns="auto_fit"
+            android:padding="16dp"
+            android:horizontalSpacing="4dip"
+            android:verticalSpacing="4dip"
+            tools:context=".ItemListFragment" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="4dip">
+        <TextView
+            android:textSize="18sp"
+            android:textColor="#ff666666"
+            android:id="@+id/secondaryLibraryTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginTop="12dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginBottom="12dip"
+            style="?android:attr/listSeparatorTextViewStyle" />
+        <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/insightSecondaryGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:columnWidth="100dip"
+            android:numColumns="auto_fit"
+            android:padding="16dp"
+            android:horizontalSpacing="4dip"
+            android:verticalSpacing="4dip"
+            tools:context=".ItemListFragment" />
+    </LinearLayout>
+</LinearLayout>

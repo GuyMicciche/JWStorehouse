@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<!-- The navigation drawer -->
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="@dimen/document_nav_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="@color/storehouse_blue_dark" />
+    <ListView
+        android:id="@+id/nav_drawer"
+        android:layout_width="@dimen/document_nav_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="@color/storehouse_blue_dark" />
+<!--<GridView
+        android:id="@+id/nav_drawer"
+        android:layout_width="336dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:choiceMode="singleChoice"
+        android:clipToPadding="false"
+        android:stretchMode="none"
+        android:numColumns="auto_fit"
+        android:horizontalSpacing="4dip"
+        android:verticalSpacing="4dip"
+        android:background="#f6f6f6" />-->
+</android.support.v4.widget.DrawerLayout>

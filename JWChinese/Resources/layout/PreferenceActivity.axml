@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Article Reader">
+        <CheckBoxPreference
+            android:key="autoScroll"
+            android:title="Auto-Scroll"
+            android:defaultValue="true"
+            android:summary="When scrolling a view, the other view scrolls in sync." />
+        <CheckBoxPreference
+            android:key="references"
+            android:title="References/Footnotes"
+            android:defaultValue="true"
+            android:summary="Show references and footnote markings." />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Navigation Controller">
+        <CheckBoxPreference
+            android:key="memorizeLibraryArticle"
+            android:title="Memorize Library Article"
+            android:defaultValue="true"
+            android:summary="When switching libraries, display the last visited article." />
+        <CheckBoxPreference
+            android:key="chapterSelectionFirst"
+            android:title="Chapter Selection First"
+            android:defaultValue="true"
+            android:summary="When selecting a publication, display chapter selection first." />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Pinyin">
+        <CheckBoxPreference
+            android:key="pinyinWol"
+            android:title="Pinyin WOL Method"
+            android:defaultValue="false"
+            android:summary="Generate Pinyin through annotation, identical to Pinyin WOL for Android. When Chinese Pinyin is clicked, user will see English definition. Default methods of displaying Pinyin will be deactivated." />
+        <CheckBoxPreference
+            android:key="learningParadigm"
+            android:title="Character Learning Paradigm"
+            android:defaultValue="true"
+            android:summary="Allow users to click on Chinese Pinyin and see English definition. When Chinese Pinyin is clicked, user may choose to add/remove English definition above Chinese Pinyin in every article. Three-Line Mode will be deactivated." />
+        <CheckBoxPreference
+            android:key="threeLine"
+            android:title="Three-Line Mode"
+            android:defaultValue="false"
+            android:summary="Display Chinese Pinyin in a helpful three-line format (English, Pinyin, Chinese). Character Learning Paradigm will be deactivated." />
+        <CheckBoxPreference
+            android:key="pinyinReferences"
+            android:title="Pinyin References"
+            android:defaultValue="false"
+            android:summary="When clicking a Chinese reference to Watchtower ONLINE Library, convert article to pinyin." />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Donations">
+        <JWChinese.DonateDialogPreference
+            android:key="donatePreference"
+            android:title="Donate"
+            android:summary="You can donate using Google Play or Paypal."
+            android:dialogTitle="Donations"
+            android:dialogMessage="你好。Would you like to donate?" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="JW Chinese for Android">
+        <Preference
+            android:title="Version"
+            android:key="appVersion" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:background="@drawable/section_button_bg">
+    <TextView
+        android:id="@+id/right_nav_item"
+        android:textSize="@dimen/document_nav_drawer_button_text"
+        android:textColor="@color/storehouse_white"
+        android:gravity="right"
+        android:padding="@dimen/bible_nav_bible_book_grid_cell_padding"
+        android:paddingLeft="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:shadowColor="#66000000"
+        android:shadowDy="-1.0"
+        android:shadowRadius="1.0" />
+</LinearLayout>
